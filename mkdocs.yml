@@ -1,0 +1,69 @@
+# Project information
+site_name: 'Thremulation Station'
+site_description: 'Local Elastic Static Security Testing'
+site_author: 'Thremulation Station'
+#site_url: 'https://github.com/mocyber/thremulation.io'
+
+
+# Repository
+repo_url: 'https://github.com/mocyber/thremulation.io'
+
+
+#Copyright
+copyright: 'Copyright &copy; 2020'
+
+
+#Visual Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  features:
+    - navigation.tabs
+  palette:
+    primary: 'Black'
+    accent: 'Blue Grey'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  icon:
+    repo: fontawesome/brands/github
+  #logo: 'img/station.png'
+  #favicon: 'img/favicon.ico'
+
+
+# # Customization
+# extra:
+#   #manifest: 'manifest.webmanifest'
+#   social:
+#     - type: 'github'
+#       link: 'https://github.com/rocknsm'
+#     - type: 'twitter'
+#       link: 'https://twitter.com/rocknsm'
+
+
+# Google Analytics
+#google_analytics:
+#  - '#'
+#  - 'auto'
+
+
+# Extensions
+# markdown_extensions:
+#  - admonition
+#  - codehilite:
+#      guess_lang: false
+#  - toc:
+#      permalink: true
+
+
+# Page Tree Layout
+nav:
+  - Home: index.md
+  - Getting Started: 
+    - Overview: getting-started/index.md
+    - Installation: getting-started/installation.md
+  - Usage Guide: 
+    - Overview: usage/index.md
+    - Functions Check: usage/functions-check.md
+  - Community: 
+    - Contribution: contribution/index.md
