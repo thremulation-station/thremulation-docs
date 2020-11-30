@@ -1,4 +1,4 @@
-# First Threat (Functions Check)
+# Functions Check (First Threat)
 Let's take some time to both validate functionality of all tooling, as well as demonstrate general usage of your new 
 "mini-range".
 

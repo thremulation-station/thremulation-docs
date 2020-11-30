@@ -61,9 +61,15 @@ nav:
   - Home: index.md
   - Getting Started: 
     - Overview: getting-started/index.md
+    - Components: getting-started/components.md
     - Installation: getting-started/installation.md
+    - Deployment: getting-started/deployment.md
   - Usage Guide: 
     - Overview: usage/index.md
     - Functions Check: usage/functions-check.md
+  - Support: 
+    - Support: support/index.md
+    - References: support/references.md
+
   - Community: 
     - Contribution: contribution/index.md
