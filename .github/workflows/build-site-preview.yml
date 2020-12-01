@@ -43,6 +43,6 @@ jobs:
     - name: Push changes # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
-        branch: actions-generate-site #ignore if your branch is master
+        branch: main #ignore if your branch is master
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
