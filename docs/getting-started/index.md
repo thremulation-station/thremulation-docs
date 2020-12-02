@@ -1,20 +1,43 @@
 # Getting Started
 
-Get you up and running: TODO
 
-## Topology
+## TLDR
 
-GRAPHIC HERE
-TODO
+If you're ready to skip all this info and get things running, jump to [Installation](./installation.md) page.
 
-## Requirements
+## Toolset
 
-The following tools are required to get the project started on your local system:
+At the end of the day, this project builds some fantastic open source lego pieces together to solve a problem. Here's 
+what is being leveraged to make locally served thremulation magic happen:
 
-- Homebrew
+
+### Infrastructure
+
 - Virtualbox
-- Vagrant
-- Vagrant vagrant-disksize plugin
+- Vagrant (and assorted plugins)
+- Packer
 - Ansible
 
-Full install instructions are provided in the next page.
+
+### Threat Emulation
+TODO
+
+#### Atomic
+TODO
+
+
+### Threat Logging & Detection
+
+#### Elasticsearch
+TODO
+
+#### Kibana
+TODO
+
+#### Elastic Security
+TODO
+
+
+
+---
+Continue to the next section for more details on the topology.
