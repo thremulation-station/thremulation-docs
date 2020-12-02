@@ -317,8 +317,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../components/" class="md-nav__link">
-      Components
+    <a href="../topology/" class="md-nav__link">
+      Topology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../node-details/" class="md-nav__link">
+      Node Details
     </a>
   </li>
 
@@ -587,45 +599,22 @@
                 
                 
                 <h1 id="deployment">Deployment</h1>
+<p>Once you have all the requirements installed, it's time to deploy the mini-range.</p>
 <h2 id="build-the-range">Build the Range</h2>
 <p>Once all the tools have been install, it's time to deploy the local range.</p>
-<p>TODO: add deploy script here</p>
+<p>TODO: update below block to reference <code>stationctl</code> cli when complete.</p>
 <ol>
-<li>
-<p>Move into this repo's vagrant directory: <code>cd ThreatEmulation-DetectionLab/vagrant</code></p>
-</li>
-<li>
-<p>Kick of the import / build / provisioning of all machines: <code>vagrant up</code></p>
-</li>
-<li>
-<p>Get yourself some :coffee: , this will take a sec</p>
-</li>
+<li>Move into this repo's vagrant directory. Example: <code>cd thremulation-station/vagrant</code></li>
+<li>Kick of the import / build / provisioning of all machines: <code>vagrant up</code></li>
+<li>Get yourself some :coffee: , this will take 10-20 min depending on your connection</li>
 </ol>
 <blockquote>
-<p>By a "sec", @seven62 means like 15-20 min. Drink you cup very very slowly.</p>
+<p><strong>Note:</strong> This is a bandwidth-intensive task that will download all the boxes that you selected. These downloads will only happen the first time you deploy. Drink you cup very very slowly?</p>
 </blockquote>
 <h2 id="initial-access">Initial Access</h2>
-<p>This lab environment is designed for users to execute and detect threats by interacting with 2 primary interfaces:</p>
+<p>This lab environment is designed for users to interact with 2 primary interfaces:</p>
 <ol>
-<li>
-<p><strong>Kibana WebUI</strong></p>
-</li>
-<li>
-<p>to reach Kibana browse to <code>localhost:5601</code></p>
-<pre><code>Kibana Credentials
-user: vagrant
-pass: vagrant
-</code></pre>
-</li>
-<li>
-<p>once in Kibana click the 3 hash dropdown menu in the upper left corner of the UI and select the "Discover" tab.</p>
-</li>
-</ol>
-<blockquote>
-<p>Ensure that the timepicker is set to the most recent timeframe, example "Last 24 hours".</p>
-</blockquote>
-<ol>
-<li><strong>Atomic Redteam</strong></li>
+<li><strong>Atomic Redteam - Execute Threats</strong></li>
 </ol>
 <p>This adversary emulation toolset is accessed by sshing into the "elastic" box and starting a powershell session.</p>
 <ul>
@@ -633,9 +622,29 @@ pass: vagrant
 <li>$<code>vagrant ssh elastic</code></li>
 </ul>
 </li>
-<li>start a powershell session<ul>
+<li>
+<p>start a powershell session</p>
+<ul>
 <li>$<code>pwsh</code></li>
 </ul>
+</li>
+<li>
+<p><strong>Kibana WebUI - Detect Threats</strong> </p>
+<ul>
+<li>
+<p>to reach Kibana browse to <code>localhost:5601</code></p>
+<p>Kibana Credentials
+user: vagrant
+pass: vagrant</p>
+</li>
+<li>
+<p>once in Kibana click the 3 hash dropdown menu in the upper left corner of the UI and select the "Discover" tab.</p>
+</li>
+</ul>
+<p><br></p>
+<blockquote>
+<p>Ensure that the timepicker is set to the most recent timeframe, example "Last 24 hours".</p>
+</blockquote>
 </li>
 </ul>
                 

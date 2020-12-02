@@ -317,8 +317,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../components/" class="md-nav__link">
-      Components
+    <a href="../topology/" class="md-nav__link">
+      Topology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../node-details/" class="md-nav__link">
+      Node Details
     </a>
   </li>
 
@@ -337,9 +349,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Installation
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-requirements" class="md-nav__link">
+    Getting Requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-project" class="md-nav__link">
+    Getting the Project
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -513,6 +561,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-requirements" class="md-nav__link">
+    Getting Requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-project" class="md-nav__link">
+    Getting the Project
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -529,85 +599,71 @@
                 
                 
                 <h1 id="installation">Installation</h1>
-<p>The following 3 platforms have been tested as a working host platform:
-- macOS
-- Windows10
-- Linux (rpm-based)</p>
-<details>
-  <summary>macOS Setup</summary>
+<h2 id="getting-requirements">Getting Requirements</h2>
+<p>Following the installation steps for your host platform. If you don't see your OS flavor, consider <a href="#">contributing</a>.</p>
+<div class="tabbed-set" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">macOS</label><div class="tabbed-content">
+<ol>
+<li>Install the <a href="https://brew.sh/">Homebrew</a> package manager</li>
+<li>Update brew: <code>brew update</code></li>
+<li>Install remaining requirements. You can copy / paste the following into your terminal:
+        <div class="highlight"><pre><span></span><code>brew cask install virtualbox vagrant
 
-  1. Install and Update Homebrew
-        * It is recommended to use [Homebrew](https://brew.sh/) which simplifies package management and installation for all requirements
-        * Follow the instructions at the above link to use the "one-liner" install method.
-        * Update brew: `brew update`
-  1. Install remaining requirements. You can copy / paste the following into your terminal:
+brew install ansible git
 
-        ```sh
-        brew cask install virtualbox vagrant
+vagrant plugin install vagrant-disksize
+vagrant plugin install vagrant-vbguest
+</code></pre></div></li>
+</ol>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Windows10</label><div class="tabbed-content">
+<ol>
+<li>If you're on a Windows box, we recommend using <a href="https://chocolatey.org/">Chocolatey</a> for package management.</li>
+<li>Install remaining requirements. You can copy / paste the following into your terminal:
+        <div class="highlight"><pre><span></span><code>choco install virtualbox vagrant
 
-        brew install ansible git
+choco install ansible git
 
-        vagrant plugin install vagrant-disksize
-        vagrant plugin install vagrant-vbguest
-        ```
-  1. Clone the Project
-        * `git clone https://github.com/mocyber/ThreatEmulation-DetectionLab.git`
-</details>
+vagrant plugin install vagrant-disksize
+vagrant plugin install vagrant-vbguest
+</code></pre></div><blockquote>
+<p>Note: Vagrant requires a restart as part of the installation.</p>
+</blockquote>
+</li>
+</ol>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Linux (RHEL)</label><div class="tabbed-content">
+<ol>
+<li>
+<p>This section assumes that you're using a RHEL-based distro, preferrably Centos 7. All commands assume a root shell (<code>sudo -s</code>).</p>
+</li>
+<li>
+<p>Install requirements
+        <div class="highlight"><pre><span></span><code>yum groupinstall -y <span class="s2">&quot;Development Tools&quot;</span>
 
-<details>
-  <summary>Windows Setup</summary>
+yum install -y <span class="se">\</span>
+kernel-devel <span class="se">\</span>
+kernel-devel-3.10.0-1127.el7.x86_64 <span class="se">\</span>
+epel-release <span class="se">\</span>
 
-  1. Install and Update Homebrew
-        * It is recommended to use [Chocolatey](https://chocolatey.org/) which simplifies package management and installation for all requirements
-        * Follow the instructions at the above link to use the "one-liner" install method.
-  1. Install remaining requirements. You can copy / paste the following into your terminal:
-
-        ```sh
-        choco install virtualbox vagrant
-        ```
-        Vagrant requires a restart as part of the installation.
-        ```sh
-        choco install ansible git
-
-        vagrant plugin install vagrant-disksize
-        vagrant plugin install vagrant-vbguest
-        ```
-  1. Clone the Project
-        * `git clone https://github.com/mocyber/ThreatEmulation-DetectionLab.git`
-</details>
-
-<details>
-  <summary>Linux Setup</summary>
-  <br>
-
-  This section assumes that you're using a RHEL-based distro, preferrably 
-  **Centos 7**. All commands assume a root shell (`sudo -s`).
-
-  1. Install requirements
-        ```sh
-        yum groupinstall -y "Development Tools"
-
-        yum install -y \
-        kernel-devel \
-        kernel-devel-3.10.0-1127.el7.x86_64 \
-        epel-release \
-
-        yum install -y ansible
-        ```
-
-  1. Install Vagrant
-        * `yum install -y https://releases.hashicorp.com/vagrant/2.2.10/vagrant_2.2.10_x86_64.rpm`
-        * `vagrant plugin install vagrant-disksize`
-        * `vagrant plugin install vagrant-vbguest`
-
-  1. Install VirtualBox
-        * `curl -o /etc/yum.repos.d/virtualbox.repo http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo`
-        * `rpm --import https://www.virtualbox.org/download/oracle_vbox.asc
-        * `yum install -y VirtualBox-6.0`
-
-  1. Clone the Project
-        * `git clone https://github.com/mocyber/ThreatEmulation-DetectionLab.git`
-</details>
+yum install -y ansible
+</code></pre></div></p>
+</li>
+<li>Install VirtualBox<br />
+  a. <code>curl -o /etc/yum.repos.d/virtualbox.repo http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo</code><br />
+  b. <code>rpm --import https://www.virtualbox.org/download/oracle_vbox.asc</code><br />
+  c. <code>yum install -y VirtualBox-6.0</code>      </li>
+<li>Install Vagrant<br />
+  a. <code>yum install -y https://releases.hashicorp.com/vagrant/2.2.10/vagrant_2.2.10_x86_64.rpm</code><br />
+  b. <code>vagrant plugin install vagrant-disksize</code><br />
+  c. <code>vagrant plugin install vagrant-vbguest</code>  </li>
+</ol>
+</div>
+</div>
+<h2 id="getting-the-project">Getting the Project</h2>
+<p>Now that you have git installed, you can clone the project locally:  </p>
+<ol>
+<li>$ <code>git clone https://github.com/mocyber/ThreatEmulation-DetectionLab.git</code></li>
+</ol>
                 
               
               
@@ -626,7 +682,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../components/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../node-details/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -635,7 +691,7 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Components
+                Node Details
               </div>
             </div>
           </a>
