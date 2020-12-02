@@ -48,7 +48,9 @@ theme:
 
 
 # Extensions
-# markdown_extensions:
+markdown_extensions:
+  - pymdownx.tabbed
+  - pymdownx.superfences
 #  - admonition
 #  - codehilite:
 #      guess_lang: false
@@ -61,7 +63,8 @@ nav:
   - Home: index.md
   - Getting Started: 
     - Overview: getting-started/index.md
-    - Components: getting-started/components.md
+    - Topology: getting-started/topology.md
+    - Node Details: getting-started/node-details.md
     - Installation: getting-started/installation.md
     - Deployment: getting-started/deployment.md
   - Usage Guide: 
