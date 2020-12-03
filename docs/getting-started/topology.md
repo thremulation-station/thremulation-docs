@@ -2,13 +2,15 @@
 
 Let's look at an overview of the mini-range and demonstrate a basic exercise workflow.
 
+<br>
+<p align="center">
+<img src="../../img/ts-topology.png">
+</p>
+<br>
 
-TODO: topology graphic
-<!-- <p align="center">
-<img src="docs/img/x.png">
-</p> -->
+# Basic Workflow
 
+<p align="center">
+<img src="../../img/ts-workflow.png">
+</p>
 
-## Basic Workflow
-
-TODO
