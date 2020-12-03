@@ -1,6 +1,7 @@
-# Functions Check (First Threat)
-Let's take some time to both validate functionality of all tooling, as well as demonstrate general usage of your new 
-"mini-range".
+# Functions Check - First Threat
+
+Now that you have all the necessary tools and files, let's get started by taking some time to 
+both validate functionality of all tooling, as well as demonstrate general usage of your new local range.
 
 1. From your terminal run $`vagrant ssh elastic` to remotely access the "elastic" logger / attacker box.
 
@@ -59,6 +60,7 @@ Now you can dig into all of the events and start building detections based off o
 1. You can do this by buidling your query using KQL or Lucene and then going to the "Detections" tab in Kibana and selecting "Manage Detection Rules".
 
 Congratulaltions you have executed your first test and hopefully wrote meaningful behavior based detections in order to help detect that activity in the future.
+
 
 ## Shutdown 
 > A.K.A "It's broken and I dont know what to fix"
