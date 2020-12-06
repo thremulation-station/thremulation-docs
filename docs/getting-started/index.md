@@ -53,5 +53,3 @@ We use the Elastic Security (SIEM) to organize all of our security relevant data
 
 #### Elastic Agent
 The Elastic Agent is a wrapper for centralized management of endpoint collection. We use the Elastic Agent to collect endpoint logs. This replaces Elastic "Beats" (which are now folded into the Agent).
----
-Continue to the next section for more details on the topology.
