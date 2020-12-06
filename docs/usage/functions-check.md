@@ -1,6 +1,10 @@
+Now that we've gotten everything working, let's get ready to rumble!
+
+![](../img/ts-legendary.gif)
+
 # Functions Check - First Threat
 
-Now that you have all the necessary tools and files, let's get started by taking some time to 
+Now that you have all the necessary tools and files, let's get started by taking some time to
 both validate functionality of all tooling, as well as demonstrate general usage of your new local range.
 
 1. From your terminal run $`vagrant ssh elastic` to remotely access the "elastic" logger / attacker box.
@@ -27,8 +31,8 @@ both validate functionality of all tooling, as well as demonstrate general usage
 
 ```shell
 Invoke-AtomicTest     # Run Atomic Test
-T1059.001             # Technique ID 
--TestNumbers 1        # TestNumber 
+T1059.001             # Technique ID
+-TestNumbers 1        # TestNumber
 -Session $sess        # use our Session variable
 ```
 
@@ -48,7 +52,7 @@ T1059.001             # Technique ID
 
 1. In order to cleanup our Mimikatz test we can run the same command we used to execute it this time with a `-Cleanup` option at the end.
 
-1. Run the following command to clean house: 
+1. Run the following command to clean house:
 
     `Invoke-AtomicTest T1059.001 -TestNumbers 1 -Session $sess -Cleanup`
 
@@ -62,14 +66,11 @@ Now you can dig into all of the events and start building detections based off o
 Congratulaltions you have executed your first test and hopefully wrote meaningful behavior based detections in order to help detect that activity in the future.
 
 
-## Shutdown 
+## Shutdown
 > A.K.A "It's broken and I dont know what to fix"
 
-Once you are done playing in your sandbox, you need to clean things up. If you are in the middle of something and want to continue later, invoke a `vagrant suspend`. Otherwise, if you are done for the day invoke a `vagrant halt`. 
+Once you are done playing in your sandbox, you need to clean things up. If you are in the middle of something and want to continue later, invoke a `vagrant suspend`. Otherwise, if you are done for the day invoke a `vagrant halt`.
 
 Last but not least, if you have goofed up your install you can use `vagrant reload`.
 
 `vagrant --help` is your friend.
-
-
-
