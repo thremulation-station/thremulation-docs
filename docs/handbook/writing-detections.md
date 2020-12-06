@@ -1,0 +1,1 @@
+# Writing Resilient Detections in Kibana

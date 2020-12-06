@@ -61,17 +61,27 @@ markdown_extensions:
 # Page Tree Layout
 nav:
   - Home: index.md
-  - Getting Started: 
+  - Getting Started:
     - Overview: getting-started/index.md
     - Topology: getting-started/topology.md
     - Node Details: getting-started/node-details.md
     - Installation: getting-started/installation.md
     - Deployment: getting-started/deployment.md
-  - Usage Guide: 
-    - Functions Check: usage/functions-check.md
+    - Functions Check: getting-started/functions-check.md
+  - Hunting Handbook:
+    - What is Threat Hunting?: handbook/what-is-threathunting.md
+    - Build Your Base: handbook/build-your-base.md
+    - What's in the Data: handbook/whats-in-the-data.md
+    - Tools of the Trade: handbook/tools.md
+    - Developing a Methodology: handbook/developing-methodology.md
+    - Understanding the Adversary: handbook/understanding-adversary.md
+    - Platform Walkthrough: handbook/ts-walkthrough.md
+    - Writing Resilient Detections: handbook/writing-detections.md
+    - Lab 1 - Subtitle: handbook/lab1.md
+    - Lab 2 - Subtitle: handbook/lab2.md
+    - Lab 3 - Subtitle: handbook/lab3.md
   - Support: 
     - Support: support/index.md
     - References: support/references.md
-
   - Community: 
     - Contribution: contribution/index.md
