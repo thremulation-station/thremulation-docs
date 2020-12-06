@@ -14,7 +14,7 @@
         <meta name="author" content="Thremulation Station">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6910b76c.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.19753c6b.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
@@ -600,8 +600,10 @@
                   </a>
                 
                 
-                <h1 id="functions-check-first-threat">Functions Check - First Threat</h1>
-<p>Now that you have all the necessary tools and files, let's get started by taking some time to 
+                <p>Now that we've gotten everything working, let's get ready to rumble!</p>
+<p><img alt="" src="../../img/ts-legendary.gif" /></p>
+<h1 id="functions-check-first-threat">Functions Check - First Threat</h1>
+<p>Now that you have all the necessary tools and files, let's get started by taking some time to
 both validate functionality of all tooling, as well as demonstrate general usage of your new local range.</p>
 <ol>
 <li>From your terminal run $<code>vagrant ssh elastic</code> to remotely access the "elastic" logger / attacker box.</li>
@@ -637,8 +639,8 @@ both validate functionality of all tooling, as well as demonstrate general usage
 </li>
 </ol>
 <div class="highlight"><pre><span></span><code>Invoke-AtomicTest     <span class="c1"># Run Atomic Test</span>
-T1059.001             <span class="c1"># Technique ID </span>
--TestNumbers <span class="m">1</span>        <span class="c1"># TestNumber </span>
+T1059.001             <span class="c1"># Technique ID</span>
+-TestNumbers <span class="m">1</span>        <span class="c1"># TestNumber</span>
 -Session <span class="nv">$sess</span>        <span class="c1"># use our Session variable</span>
 </code></pre></div>
 <ol>
@@ -662,7 +664,7 @@ T1059.001             <span class="c1"># Technique ID </span>
 <p>In order to cleanup our Mimikatz test we can run the same command we used to execute it this time with a <code>-Cleanup</code> option at the end.</p>
 </li>
 <li>
-<p>Run the following command to clean house: </p>
+<p>Run the following command to clean house:</p>
 <p><code>Invoke-AtomicTest T1059.001 -TestNumbers 1 -Session $sess -Cleanup</code></p>
 </li>
 </ol>
@@ -676,7 +678,7 @@ T1059.001             <span class="c1"># Technique ID </span>
 <blockquote>
 <p>A.K.A "It's broken and I dont know what to fix"</p>
 </blockquote>
-<p>Once you are done playing in your sandbox, you need to clean things up. If you are in the middle of something and want to continue later, invoke a <code>vagrant suspend</code>. Otherwise, if you are done for the day invoke a <code>vagrant halt</code>. </p>
+<p>Once you are done playing in your sandbox, you need to clean things up. If you are in the middle of something and want to continue later, invoke a <code>vagrant suspend</code>. Otherwise, if you are done for the day invoke a <code>vagrant halt</code>.</p>
 <p>Last but not least, if you have goofed up your install you can use <code>vagrant reload</code>.</p>
 <p><code>vagrant --help</code> is your friend.</p>
                 
@@ -749,8 +751,8 @@ T1059.001             <span class="c1"># Technique ID </span>
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.fd16492e.min.js"></script>
-      <script src="../../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({

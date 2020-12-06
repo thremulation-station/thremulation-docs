@@ -14,7 +14,7 @@
         <meta name="author" content="Thremulation Station">
       
       <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6910b76c.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.19753c6b.min.css">
       
         
         <link rel="stylesheet" href="assets/stylesheets/palette.196e0c26.min.css">
@@ -648,18 +648,21 @@
 </p>
 <p><br></p>
 <h2 id="what-is-it">What is it?</h2>
-<p>Thremulation Station is an approachable and <strong><em>small-scale threat emulation and detection range</em></strong> to emulate and detect. Leveraging tools such as Virtualbox and Vagrant Multi-Machine, you can to deploy a <em>reasonably sized</em> local testing environment to <em>both</em> emulate and detect bad things on various guest operating systems.</p>
-<p>simplicity, abstraction in a good way TODO</p>
+<p>Thremulation Station is an approachable and <strong><em>small-scale threat emulation and detection range</em></strong> to emulate and detect adversary activity. Leveraging tools such as VirtualBox and Vagrant Multi-Machine, you can to deploy a <em>reasonably sized</em> local testing environment to <em>both</em> emulate and detect bad things on various guest operating systems.</p>
+<p><strong>There are three basic components:</strong></p>
+<ol>
+<li>The Elastic Stack - for analyzing data</li>
+<li>Atomic Red - for generating adversary activity</li>
+<li>Victim machines - to be targeted by adversary activity</li>
+</ol>
+<p><img alt="" src="img/ts-workflow.png" /></p>
 <h2 id="how-is-thremulation-station-different">How is Thremulation-Station different?</h2>
-<p>Not everone has a blade server heating their home from a closet. <br />
-Minimal requirements.<br />
-On a laptop.<br />
-TODO.  </p>
+<p>Not everyone has a blade server heating their home from a closet...and not everyone, be it a junior hunter/red teamer who is just getting started or an operator with 20 years experience, is an engineer that can stitch all of the complex services together to grow or sharpen your skills.</p>
 <h2 id="who-is-it-for">Who is it for?</h2>
 <p>This project has many practical use cases, and we're excited to see how it's used. A few examples:</p>
 <ul>
 <li>Cyber Defense education</li>
-<li>Generating raining data</li>
+<li>Generating training data</li>
 <li>Threat intelligence training</li>
 <li>Writing and validating <a href="https://github.com/elastic/detection-rules">detection rules</a></li>
 <li>Writing and testing threat <a href="https://attack.mitre.org/tactics/enterprise/">tactics and techniques</a></li>
@@ -668,17 +671,15 @@ TODO.  </p>
 <p>A simple user experience is the priority. A brief usage overview looks like this:</p>
 <ol>
 <li>Clone the project</li>
-<li>Use the CLI to perform setup</li>
 <li>Use the CLI to deploy your range</li>
-<li>Reference the User Guide at [thremulation.io]</li>
+<li>Reference the User Guide at <a href="https://thremulation.io">thremulation.io</a></li>
 <li>Use the CLI to perform cleanup / reset tasks</li>
-<li>Use the CLI to perform setup</li>
 </ol>
 <blockquote>
 <p>Full details on usage begin in the documentation <a href="getting-started/">Getting Started Guide</a>.</p>
 </blockquote>
 <h2 id="how-can-i-help">How can I help?</h2>
-<p>We welcome contributions! But what if you don't know what to do, or how to start? Check out the <a href="/contribution/index.md">Contribution Section</a>. If you're lost, please ask and we can help guide you to the right place to get started. </p>
+<p>We welcome contributions! But what if you don't know what to do, or how to start? Check out the <a href="https://github.com/mocyber/thremulation.io/blob/main/CONTRIBUTING.md">Contribution Section</a>. If you're lost, please ask and we can help guide you to the right place to get started.</p>
 <h2 id="credit">Credit</h2>
 <p>Tools used and projects of inspiration etc.</p>
 <ul>
@@ -745,8 +746,8 @@ TODO</li>
       
     </div>
     
-      <script src="assets/javascripts/vendor.fd16492e.min.js"></script>
-      <script src="assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({

@@ -14,7 +14,7 @@
         <meta name="author" content="Thremulation Station">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.6">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.7">
     
     
       
@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6910b76c.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.19753c6b.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.196e0c26.min.css">
@@ -366,8 +366,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#atomic" class="md-nav__link">
-    Atomic
+  <a href="#atomic-red" class="md-nav__link">
+    Atomic Red
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caldera" class="md-nav__link">
+    Caldera
   </a>
   
 </li>
@@ -402,6 +409,13 @@
           <li class="md-nav__item">
   <a href="#elastic-security" class="md-nav__link">
     Elastic Security
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-agent" class="md-nav__link">
+    Elastic Agent
   </a>
   
 </li>
@@ -653,8 +667,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#atomic" class="md-nav__link">
-    Atomic
+  <a href="#atomic-red" class="md-nav__link">
+    Atomic Red
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caldera" class="md-nav__link">
+    Caldera
   </a>
   
 </li>
@@ -693,6 +714,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#elastic-agent" class="md-nav__link">
+    Elastic Agent
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -724,28 +752,38 @@
 <h2 id="tldr">TLDR</h2>
 <p>If you're ready to skip all this info and get things running, jump to <a href="installation/">Installation</a> page.</p>
 <h2 id="toolset">Toolset</h2>
-<p>At the end of the day, this project builds some fantastic open source lego pieces together to solve a problem. Here's 
+<p>At the end of the day, this project builds some fantastic open source lego pieces together to solve a problem. Here's
 what is being leveraged to make locally served thremulation magic happen:</p>
 <h3 id="infrastructure">Infrastructure</h3>
 <ul>
-<li>Virtualbox</li>
+<li>VirtualBox</li>
+<li>This serves as the "hypervisor" that your virtual machines will be built on</li>
 <li>Vagrant (and assorted plugins)</li>
-<li>Packer</li>
-<li>Ansible</li>
+<li>This is an automation and orchestration platform to build the VMs that will be used for the project</li>
 </ul>
 <h3 id="threat-emulation">Threat Emulation</h3>
-<p>TODO</p>
-<h4 id="atomic">Atomic</h4>
-<p>TODO</p>
+<p>Threat Emulation (or red teaming) is an attack simulation designed to measure how well defenders can detect an attack from a real-life adversary.</p>
+<p>To put threat emulation in layman’s terms, it’s “ethical hacking” — a way for teams to test how well defenders would fare in the face of a real attack.</p>
+<p>The premise of red teaming is comparable to the old sports saying, "the best offense is a good defense." Red teaming helps defenders learn about new adversary techniques.</p>
+<p>To provide threat emulation, we have used Red Canary's open source project, <a href="https://atomicredteam.io">Atomic Red Team</a> and MITRE's <a href="https://github.com/mitre/caldera">CALDERA</a> project.</p>
+<h4 id="atomic-red">Atomic Red</h4>
+<p>Atomic Red Team is a library of simple tests that every security team can execute to test their defenses. Tests are focused, have few dependencies, and are defined in a structured format that can be used by automation frameworks.</p>
+<h4 id="caldera">Caldera</h4>
+<p>CALDERA™ is a cyber security framework designed to easily run autonomous breach-and-simulation exercises. It can also be used to run manual red-team engagements or automated incident response.</p>
 <h3 id="threat-logging-detection">Threat Logging &amp; Detection</h3>
+<p>Threat detection (or blue teaming) is the process of defending assets and infrastructure from adversaries. This is achieved through a combination of signature-based detections and also access to all available log data to find activity that does not trigger any known signatures.</p>
+<p>To provide logging and detection, we are using the Elastic Stack - <a href="https://www.elastic.co/elasticsearch/">Elasticsearch</a>, <a href="https://www.elastic.co/kibana/">Kibana</a>, <a href="https://www.elastic.co/beats/">Beats</a>, and <a href="https://www.elastic.co/guide/en/fleet/current/elastic-agent-installation-configuration.html">Agents</a>.</p>
 <h4 id="elasticsearch">Elasticsearch</h4>
-<p>TODO</p>
+<p>Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease.</p>
+<p>We store and organize our data here.</p>
 <h4 id="kibana">Kibana</h4>
-<p>TODO</p>
+<p>Kibana is a free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack. Do anything from tracking query load to understanding the way requests flow through your apps.</p>
+<p>We use Kibana to visualize our data</p>
 <h4 id="elastic-security">Elastic Security</h4>
-<p>TODO</p>
-<hr />
-<p>Continue to the next section for more details on the topology.</p>
+<p>Everything you love about the free and open Elastic Stack — geared toward security information and event management (SIEM). Leverage the speed, scale, and relevance of Elasticsearch for SIEM use cases to drive your security operations.</p>
+<p>We use the Elastic Security (SIEM) to organize all of our security relevant data.</p>
+<h4 id="elastic-agent">Elastic Agent</h4>
+<p>The Elastic Agent is a wrapper for centralized management of endpoint collection. We use the Elastic Agent to collect endpoint logs. This replaces Elastic "Beats" (which are now folded into the Agent).</p>
                 
               
               
@@ -816,8 +854,8 @@ what is being leveraged to make locally served thremulation magic happen:</p>
       
     </div>
     
-      <script src="../assets/javascripts/vendor.fd16492e.min.js"></script>
-      <script src="../assets/javascripts/bundle.7836ba4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../assets/javascripts/vendor.0ac82a11.min.js"></script>
+      <script src="../assets/javascripts/bundle.f81dfb4d.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
