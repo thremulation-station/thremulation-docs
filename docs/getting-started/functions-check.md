@@ -1,11 +1,14 @@
+# Functions Check - Demonstration Threat
+
 Now that we've gotten everything working, let's get ready to rumble!
 
-![](../img/ts-legendary.gif)
+<br>
+<p align="center">
+<img src="../../img/ts-legendary.gif">
+</p>
+<br>
 
-# Functions Check - First Threat
-
-Now that you have all the necessary tools and files, let's get started by taking some time to
-both validate functionality of all tooling, as well as demonstrate general usage of your new local range.
+This demonstration is intended to both validate functionality of all tooling, as well as demonstrate general usage of your new local range.
 
 1. From your terminal run $`vagrant ssh elastic` to remotely access the "elastic" logger / attacker box.
 
