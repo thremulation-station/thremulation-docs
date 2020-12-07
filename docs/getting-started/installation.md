@@ -2,7 +2,7 @@
 
 
 ## Getting Requirements
-Following the installation steps for your host platform. If you don't see your OS flavor, consider [contributing](#).
+Following the installation steps for your host platform. If you don't see your OS flavor, consider [contributing](../contribution/index.md).
 
 
 === "macOS"
@@ -11,7 +11,7 @@ Following the installation steps for your host platform. If you don't see your O
       1. Update brew: `brew update`
       1. Install remaining requirements. You can copy / paste the following into your terminal:
             ```sh
-            brew cask install virtualbox vagrant
+            brew install --cask virtualbox vagrant
 
             brew install ansible git
 
