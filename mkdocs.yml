@@ -68,6 +68,9 @@ nav:
     - Installation: getting-started/installation.md
     - Deployment: getting-started/deployment.md
     - Functions Check: getting-started/functions-check.md
+  - Toolset:
+    - Overview: toolset/index.md
+    - Caldera Usage: toolset/caldera-usage.md
   - Hunting Handbook:
     - What is Threat Hunting?: handbook/what-is-threathunting.md
     - Build Your Base: handbook/build-your-base.md
