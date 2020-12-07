@@ -1,11 +1,12 @@
-# Node Details
+# Node Roles
 
 This section lists the building blocks of how each node is set up.
+
 
 ## Elastomic
 
 #### Purpose
-The `elastomic` node is the first and only _required_ node, and is the crux of the entire project. It's essentially a "Purple Teaming" control box that is used to **both** _execute attacks and capture logs of those attacks_.
+The "`elastomic`" node is the first and only _required_ node, and is the crux of the entire project. It's essentially a "Purple Teaming" control box that is used to **both** _execute attacks and capture logs of those attacks_.
 
 #### Features
 
@@ -65,3 +66,5 @@ The intent of the `centos` node is emulate hosting the typical services hosted o
 * Nginx
 * Rsyslog
 * Samba
+
+> More details on the usage of each tool can be found in the [Toolset Section](../toolset/index.md).

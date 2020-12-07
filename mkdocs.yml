@@ -60,14 +60,17 @@ markdown_extensions:
 
 # Page Tree Layout
 nav:
-  - Home: index.md
+  - Home: 
+    - Welcome: index.md
+    - About TS: home/about.md
+    - Topology: home/topology.md
+    - Node Roles: home/node-roles.md
   - Getting Started:
-    - Overview: getting-started/index.md
-    - Topology: getting-started/topology.md
-    - Node Details: getting-started/node-details.md
     - Installation: getting-started/installation.md
     - Deployment: getting-started/deployment.md
-    - Functions Check: getting-started/functions-check.md
+    - Initial Access: getting-started/initial-access.md
+    - Management: getting-started/manage.md
+    - Demo Threat: getting-started/demo-threat.md
   - Toolset:
     - Overview: toolset/index.md
     - Caldera Usage: toolset/caldera-usage.md
@@ -84,7 +87,8 @@ nav:
     - Lab 2 - Subtitle: handbook/lab2.md
     - Lab 3 - Subtitle: handbook/lab3.md
   - Support: 
-    - Support: support/index.md
+    - Troubleshoot: support/troubleshoot.md
     - References: support/references.md
+    - Glossary: support/glossary.md
   - Community: 
     - Contribution: contribution/index.md

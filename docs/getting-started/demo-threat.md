@@ -1,4 +1,4 @@
-# Functions Check - Demonstration Threat
+# Demonstration Threat - Walkthrough
 
 Now that we've gotten everything working, let's get ready to rumble!
 

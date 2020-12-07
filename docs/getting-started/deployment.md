@@ -1,11 +1,15 @@
 # Deployment
 
-Once you have all the requirements installed, it's time to deploy the mini-range.
+Once you have all the requirements installed and repo staged locally, it's time to deploy 
+your threat hunting range.
 
 
-## Build the Range
+## Introduction to Station Control
 
-Once all the tools have been install, it's time to deploy the local range.
+TODO
+
+
+### Deployment Options
 
 TODO: update below block to reference `stationctl` cli when complete.
 
@@ -13,32 +17,16 @@ TODO: update below block to reference `stationctl` cli when complete.
 1. Kick of the import / build / provisioning of all machines: `vagrant up`
 1. Get yourself some :coffee: , this will take 10-20 min depending on your connection
 
+<br>
 > **Note:** This is a bandwidth-intensive task that will download all the boxes that you selected. These downloads will only happen the first time you deploy. Drink you cup very very slowly?
 
 
-## Initial Access
+#### Quick Deployment
 
-This lab environment is designed for users to interact with 2 primary interfaces:
+TODO
 
-1. **Atomic Redteam - Execute Threats**
 
-This adversary emulation toolset is accessed by sshing into the "elastic" box and starting a powershell session.
+#### Custom Deployment
 
-- ssh to the elastic vbox:
-    - $`vagrant ssh elastic`
-- start a powershell session
-    - $`pwsh`
+TODO
 
-1. **Kibana WebUI - Detect Threats** 
-
-    - to reach Kibana browse to `localhost:5601`
-
-        Kibana Credentials
-        user: vagrant
-        pass: vagrant
-
-    - once in Kibana click the 3 hash dropdown menu in the upper left corner of the UI and select the "Discover" tab.
-    
-    <br>
-
-    > Ensure that the timepicker is set to the most recent timeframe, example "Last 24 hours".

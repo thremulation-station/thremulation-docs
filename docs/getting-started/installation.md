@@ -1,5 +1,13 @@
 # Installation
 
+A simple user experience is the priority. A brief overview of setup is this:  
+
+1. Clone the project
+1. Use the CLI to deploy your range
+1. Reference the User Guide at [thremulation.io](https://thremulation.io)
+1. Use the CLI to perform cleanup / reset tasks
+
+
 
 ## Getting Requirements
 Following the installation steps for your host platform. If you don't see your OS flavor, consider [contributing](../contribution/index.md).
