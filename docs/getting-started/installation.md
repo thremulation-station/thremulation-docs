@@ -65,4 +65,4 @@ Following the installation steps for your host platform. If you don't see your O
 
 Now that you have git installed, you can clone the project locally:  
 
-1. $ `git clone https://github.com/mocyber/ThreatEmulation-DetectionLab.git`
+1. $ `git clone https://github.com/thremulation-station/thremulation-station.git`
