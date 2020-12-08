@@ -162,13 +162,16 @@
     <ul class="md-tabs__list">
       
         
-  <li class="md-tabs__item">
-    
-    
-    <a href=".." class="md-tabs__link">
-      Home
-    </a>
-  </li>
+  
+  
+    <li class="md-tabs__item">
+      
+      
+      <a href=".." class="md-tabs__link">
+        Home
+      </a>
+    </li>
+  
 
       
         
@@ -177,7 +180,7 @@
     <li class="md-tabs__item">
       
       
-      <a href="../getting-started/" class="md-tabs__link">
+      <a href="../getting-started/installation/" class="md-tabs__link">
         Getting Started
       </a>
     </li>
@@ -218,7 +221,7 @@
     <li class="md-tabs__item">
       
       
-      <a href="../support/" class="md-tabs__link">
+      <a href="../support/troubleshoot/" class="md-tabs__link">
         Support
       </a>
     </li>
@@ -283,10 +286,71 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+    <label class="md-nav__link" for="nav-1">
+      Home
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Home" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
     <a href=".." class="md-nav__link">
-      Home
+      Welcome
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../home/about/" class="md-nav__link">
+      About TS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../home/topology/" class="md-nav__link">
+      Topology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../home/node-roles/" class="md-nav__link">
+      Node Roles
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -309,42 +373,6 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../getting-started/" class="md-nav__link">
-      Overview
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../getting-started/topology/" class="md-nav__link">
-      Topology
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../getting-started/node-details/" class="md-nav__link">
-      Node Details
-    </a>
-  </li>
-
         
           
           
@@ -376,8 +404,32 @@
 
 
   <li class="md-nav__item">
-    <a href="../getting-started/functions-check/" class="md-nav__link">
-      Functions Check
+    <a href="../getting-started/initial-access/" class="md-nav__link">
+      Initial Access
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/manage/" class="md-nav__link">
+      Management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../getting-started/demo-threat/" class="md-nav__link">
+      Demo Threat
     </a>
   </li>
 
@@ -423,9 +475,106 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Overview
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Overview
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#infrastructure" class="md-nav__link">
+    Infrastructure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-emulation" class="md-nav__link">
+    Threat Emulation
+  </a>
+  
+    <nav class="md-nav" aria-label="Threat Emulation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atomic-red" class="md-nav__link">
+    Atomic Red
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caldera" class="md-nav__link">
+    Caldera
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-logging-detection" class="md-nav__link">
+    Threat Logging &amp; Detection
+  </a>
+  
+    <nav class="md-nav" aria-label="Threat Logging &amp; Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elasticsearch" class="md-nav__link">
+    Elasticsearch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kibana" class="md-nav__link">
+    Kibana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-security" class="md-nav__link">
+    Elastic Security
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-agent" class="md-nav__link">
+    Elastic Agent
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -630,8 +779,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../support/" class="md-nav__link">
-      Support
+    <a href="../support/troubleshoot/" class="md-nav__link">
+      Troubleshoot
     </a>
   </li>
 
@@ -644,6 +793,18 @@
   <li class="md-nav__item">
     <a href="../support/references/" class="md-nav__link">
       References
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../support/glossary/" class="md-nav__link">
+      Glossary
     </a>
   </li>
 
@@ -707,6 +868,89 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#infrastructure" class="md-nav__link">
+    Infrastructure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-emulation" class="md-nav__link">
+    Threat Emulation
+  </a>
+  
+    <nav class="md-nav" aria-label="Threat Emulation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#atomic-red" class="md-nav__link">
+    Atomic Red
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caldera" class="md-nav__link">
+    Caldera
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#threat-logging-detection" class="md-nav__link">
+    Threat Logging &amp; Detection
+  </a>
+  
+    <nav class="md-nav" aria-label="Threat Logging &amp; Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elasticsearch" class="md-nav__link">
+    Elasticsearch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kibana" class="md-nav__link">
+    Kibana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-security" class="md-nav__link">
+    Elastic Security
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-agent" class="md-nav__link">
+    Elastic Agent
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -723,9 +967,42 @@
                 
                 
                 <h1 id="project-toolbox">Project Toolbox</h1>
-<p>This section covers basic useage of the main building blocks of 
-Thremulation Station.</p>
-<p>TODO: create a tool-usage-guide template</p>
+<p>At the end of the day, this project builds some fantastic open source lego pieces together to solve a problem. Here's
+what is being leveraged to make locally served thremulation magic happen:</p>
+<h2 id="infrastructure">Infrastructure</h2>
+<ul>
+<li>VirtualBox</li>
+<li>
+<p>This serves as the "hypervisor" that your virtual machines will be built on</p>
+</li>
+<li>
+<p>Vagrant (and assorted plugins)</p>
+</li>
+<li>This is an automation and orchestration platform to build the VMs that will be used for the project</li>
+</ul>
+<h2 id="threat-emulation">Threat Emulation</h2>
+<p>Threat Emulation (or red teaming) is an attack simulation designed to measure how well defenders can detect an attack from a real-life adversary.</p>
+<p>To put threat emulation in layman’s terms, it’s “ethical hacking” — a way for teams to test how well defenders would fare in the face of a real attack.</p>
+<p>The premise of red teaming is comparable to the old sports saying, "the best offense is a good defense." Red teaming helps defenders learn about new adversary techniques.</p>
+<p>To provide threat emulation, we have used Red Canary's open source project, <a href="https://atomicredteam.io">Atomic Red Team</a> and MITRE's <a href="https://github.com/mitre/caldera">CALDERA</a> project.</p>
+<h3 id="atomic-red">Atomic Red</h3>
+<p>Atomic Red Team is a library of simple tests that every security team can execute to test their defenses. Tests are focused, have few dependencies, and are defined in a structured format that can be used by automation frameworks.</p>
+<h3 id="caldera">Caldera</h3>
+<p>CALDERA™ is a cyber security framework designed to easily run autonomous breach-and-simulation exercises. It can also be used to run manual red-team engagements or automated incident response.</p>
+<h2 id="threat-logging-detection">Threat Logging &amp; Detection</h2>
+<p>Threat detection (or blue teaming) is the process of defending assets and infrastructure from adversaries. This is achieved through a combination of signature-based detections and also access to all available log data to find activity that does not trigger any known signatures.</p>
+<p>To provide logging and detection, we are using the Elastic Stack - <a href="https://www.elastic.co/elasticsearch/">Elasticsearch</a>, <a href="https://www.elastic.co/kibana/">Kibana</a>, <a href="https://www.elastic.co/beats/">Beats</a>, and <a href="https://www.elastic.co/guide/en/fleet/current/elastic-agent-installation-configuration.html">Agents</a>.</p>
+<h3 id="elasticsearch">Elasticsearch</h3>
+<p>Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. As the heart of the Elastic Stack, it centrally stores your data for lightning fast search, fine‑tuned relevancy, and powerful analytics that scale with ease.</p>
+<p>We store and organize our data here.</p>
+<h3 id="kibana">Kibana</h3>
+<p>Kibana is a free and open user interface that lets you visualize your Elasticsearch data and navigate the Elastic Stack. Do anything from tracking query load to understanding the way requests flow through your apps.</p>
+<p>We use Kibana to visualize our data</p>
+<h3 id="elastic-security">Elastic Security</h3>
+<p>Everything you love about the free and open Elastic Stack — geared toward security information and event management (SIEM). Leverage the speed, scale, and relevance of Elasticsearch for SIEM use cases to drive your security operations.</p>
+<p>We use the Elastic Security (SIEM) to organize all of our security relevant data.</p>
+<h3 id="elastic-agent">Elastic Agent</h3>
+<p>The Elastic Agent is a wrapper for centralized management of endpoint collection. We use the Elastic Agent to collect endpoint logs. This replaces Elastic "Beats" (which are now folded into the Agent).</p>
                 
               
               
@@ -744,7 +1021,7 @@ Thremulation Station.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../getting-started/functions-check/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../getting-started/demo-threat/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -753,7 +1030,7 @@ Thremulation Station.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Functions Check
+                Demo Threat
               </div>
             </div>
           </a>
