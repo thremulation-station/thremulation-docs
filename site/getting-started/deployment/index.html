@@ -900,20 +900,58 @@
 <p>Once you have all the requirements installed and repo staged locally, it's time to deploy 
 your threat hunting range.</p>
 <h2 id="introduction-to-station-control">Introduction to Station Control</h2>
-<p>TODO</p>
+<p><img alt="" src="../../images/ts-main.png" /></p>
+<p>Thremulation Station comes with a terminal control interface called <code>stationctl</code>. It is used to perform most major tasks within the environment. The main features provided are:</p>
+<p><br></p>
+<blockquote>
+<p><code>stationctl</code> is a script located in the vagrant/ directory, and must be executed from that folder to work properly</p>
+</blockquote>
+<p>TODO IMG</p>
+<ul>
+<li>configure and deploy a new local range</li>
+<li>check the status of a current range</li>
+<li>management tasks on a current range<ul>
+<li>reloading / rebuilding boxes</li>
+<li>data reset (clearing indexes)</li>
+<li>various troubleshooting steps</li>
+</ul>
+</li>
+</ul>
+<p>Let's continue setting up a local testing range by moving into the deployment steps.</p>
 <h3 id="deployment-options">Deployment Options</h3>
-<p>TODO: update below block to reference <code>stationctl</code> cli when complete.</p>
+<p>In the previous section you installed requirements and cloned the repo locally. Let's get this thing going!</p>
 <ol>
-<li>Move into this repo's vagrant directory. Example: <code>cd thremulation-station/vagrant</code></li>
-<li>Kick of the import / build / provisioning of all machines: <code>vagrant up</code></li>
-<li>Get yourself some :coffee: , this will take 10-20 min depending on your connection</li>
+<li>
+<p>Move into this repo's vagrant directory. Example: <code>cd thremulation-station/vagrant</code></p>
+</li>
+<li>
+<p>Run the <code>stationctl</code> control script. Example: $ <code>./stationctl</code></p>
+</li>
+<li>
+<p>Select option <code>1</code> and <code>&lt;enter&gt;</code> to move into the deploy menu</p>
+</li>
+</ol>
+<p><img alt="" src="../../images/ts-deploy1.png" /></p>
+<p>Here you can see the main menu and it's options. From here, you have 2 paths you can take...</p>
+<h4 id="quick-deployment">Quick Deployment</h4>
+<p>A Quick Deployment is the first and fastest option. It enables all VMs included in the range, meaning the control machine and both a windows and linux target box.</p>
+<p><img alt="" src="../../images/ts-deploy2.png" /></p>
+<ol>
+<li>
+<p>Select option <code>1</code> and <code>&lt;enter&gt;</code></p>
+</li>
+<li>
+<p>Then confirm this configuration to kick things off. This will download boxes / spin up / provision all boxes.</p>
+</li>
+<li>
+<p>Get yourself some fresh coffee, this will take 10-20 min depending on your connection.</p>
+</li>
 </ol>
 <p><br></p>
 <blockquote>
-<p><strong>Note:</strong> This is a bandwidth-intensive task that will download all the boxes that you selected. These downloads will only happen the first time you deploy. Drink you cup very very slowly?</p>
+<p><strong>Note:</strong> This is a bandwidth-intensive task that may take a while. But take heart, this will only happen the first time you deploy. Get some coffee, and drink you cup slowly, savoring these infrequently quiet moments.</p>
+<p><strong>Note: Note:</strong> If you don't drink coffee, I don't trust you and I don't want you to have any part of this.</p>
 </blockquote>
-<h4 id="quick-deployment">Quick Deployment</h4>
-<p>TODO</p>
 <h4 id="custom-deployment">Custom Deployment</h4>
 <p>TODO</p>
                 
