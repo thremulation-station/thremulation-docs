@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-<img src="../img/placeholder-logo.png">
+<img src="images/placeholder-logo.png">
 </p>
 <br>
 
@@ -12,8 +12,10 @@
 Thremulation Station is an approachable and ***small-scale threat emulation and detection range*** to emulate and detect adversary activity. Leveraging tools such as VirtualBox and Vagrant Multi-Machine, you can to deploy a _reasonably sized_ local testing environment to _both_ emulate and detect bad things on various guest operating systems.
 
 <br>
-![](img/ts-workflow.png)
-
+<p align="center">
+<img src="images/ts-workflow.png">
+</p>
+<br>
 
 ## Contribution
 
