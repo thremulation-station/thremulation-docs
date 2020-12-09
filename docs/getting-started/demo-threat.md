@@ -4,7 +4,7 @@ Now that we've gotten everything working, let's get ready to rumble!
 
 <br>
 <p align="center">
-<img src="../../img/ts-legendary.gif">
+<img src="../images/ts-legendary.gif">
 </p>
 <br>
 
