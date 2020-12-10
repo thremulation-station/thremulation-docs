@@ -21,7 +21,7 @@ Following the installation steps for your host platform. If you don't see your O
             ```sh
             brew install --cask virtualbox vagrant
 
-            brew install ansible git
+            brew install git
 
             vagrant plugin install vagrant-disksize
             vagrant plugin install vagrant-vbguest
@@ -35,7 +35,7 @@ Following the installation steps for your host platform. If you don't see your O
             ```pwsh
             choco install virtualbox vagrant
 
-            choco install ansible git
+            choco install git
 
             vagrant plugin install vagrant-disksize
             vagrant plugin install vagrant-vbguest
@@ -55,7 +55,7 @@ Following the installation steps for your host platform. If you don't see your O
             kernel-devel-3.10.0-1127.el7.x86_64 \
             epel-release \
 
-            yum install -y ansible
+            yum install -y git
             ```
       1. Install VirtualBox  
       a. `curl -o /etc/yum.repos.d/virtualbox.repo http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo`  
