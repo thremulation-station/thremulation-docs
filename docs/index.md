@@ -9,7 +9,11 @@
 
 # What is it?
 
-Thremulation Station is an approachable and ***small-scale threat emulation and detection range*** to emulate and detect adversary activity. Leveraging tools such as VirtualBox and Vagrant Multi-Machine, you can to deploy a _reasonably sized_ local testing environment to _both_ emulate and detect bad things on various guest operating systems.
+Thremulation Station is an approachable and small-scale threat emulation and detection range. It primarily uses Elastic Security and Atomic Redteam to emulate and detect adversary activity. 
+
+The project is a collection of existing tools like VirtualBox and Vagrant an to deploy a local testing environment that requires only a _reasonably_ spec'd machine.
+
+The bottom line: Cyber Threat Detection for your ***laptop***.
 
 <br>
 <p align="center">
@@ -30,5 +34,6 @@ Tools used and projects of inspiration etc.
 - Atomic Redpeople
 - Mitre Att&ck
 - RockNSM
+- Robox
 - ...
 TODO
