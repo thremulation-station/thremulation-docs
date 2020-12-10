@@ -862,7 +862,7 @@
 <p>Now that we've gotten everything working, let's get ready to rumble!</p>
 <p><br></p>
 <p align="center">
-<img src="../../img/ts-legendary.gif">
+<img src="../images/ts-legendary.gif">
 </p>
 <p><br></p>
 <p>This demonstration is intended to both validate functionality of all tooling, as well as demonstrate general usage of your new local range.</p>
@@ -929,6 +929,15 @@ T1059.001             <span class="c1"># Technique ID</span>
 <p><code>Invoke-AtomicTest T1059.001 -TestNumbers 1 -Session $sess -Cleanup</code></p>
 </li>
 </ol>
+<p>When it's time to reset back to a baseline, we can again use <code>stationctl</code> to run a data reset.</p>
+<ul>
+<li><code>sh stationctl</code></li>
+<li>select <code>3. Management</code></li>
+<li><code>7. Soft Reset</code> and then</li>
+<li><code>Y</code> to confirm.</li>
+</ul>
+<p>This will reset to the snapshots that were taken during the deployment phase.</p>
+<p><img alt="" src="../../images/ts-soft-reset.png" /></p>
 <h2 id="taking-things-further">Taking Things Further</h2>
 <p>Now you can dig into all of the events and start building detections based off of what logs its behavior produces after which you could run the test again to verify your detection logic is sound.</p>
 <ol>

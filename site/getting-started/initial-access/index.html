@@ -845,10 +845,13 @@
                 
                 
                 <h1 id="initial-access">Initial Access</h1>
-<p>Now it's time to really get into things. </p>
+<p>Now it's time to really get into things.</p>
 <h2 id="getting-status">Getting Status</h2>
-<p>stationctl status
-TODO</p>
+<p>Now that we've deployed, let's make sure everything is up and running. So, fire <code>stationctl</code> back up and let's do that.</p>
+<p><code>sh stationctl</code>, select <code>2. Status</code>.</p>
+<p>This will run through a check of the Vagrant boxes, VirtualBox machines, and the status of Elasticsearch and Kibana.</p>
+<p>Of note, because Elasticsearch is only a single node installation, the status will always be Yellow. Everything is fine.</p>
+<p><img alt="" src="../../images/ts-status.png" /></p>
 <h2 id="interface-login">Interface Login</h2>
 <p>The environment is designed for users to interact with 2 primary interfaces:</p>
 <ol>
@@ -856,35 +859,35 @@ TODO</p>
 </ol>
 <p>This adversary emulation toolset is accessed by sshing into the "elastic" box and starting a powershell session.</p>
 <ul>
-<li>ssh to the elastic vbox:<ul>
-<li>$<code>vagrant ssh elastic</code></li>
+<li>From the $(pwd)/vagrant directory, <code>ssh</code> to the elastic vbox:<ul>
+<li>$<code>vagrant ssh ts.elastomic</code></li>
 </ul>
 </li>
-<li>
-<p>start a powershell session</p>
-<ul>
+<li>start a powershell session<ul>
 <li>$<code>pwsh</code></li>
 </ul>
 </li>
+</ul>
+<p>View the <a href="../toolset/image.md">usage guide</a> to learn more about executing Atomic Red Team.</p>
+<ol>
 <li>
-<p><strong>Kibana WebUI - Detect Threats</strong> </p>
+<p><strong>Kibana WebUI - Detect Threats</strong></p>
 <ul>
 <li>
-<p>to reach Kibana browse to <code>localhost:5601</code></p>
+<p>To reach Kibana browse to <code>localhost:5601</code></p>
 <p>Kibana Credentials
-user: vagrant
-pass: vagrant</p>
+user: <code>vagrant</code>
+pass: <code>vagrant</code></p>
 </li>
 <li>
-<p>once in Kibana click the 3 hash dropdown menu in the upper left corner of the UI and select the "Discover" tab.</p>
+<p>Once in Kibana click the 3 hash dropdown menu in the upper left corner of the UI and select the "Discover" tab.</p>
 </li>
 </ul>
-<p><br></p>
 <blockquote>
 <p>Ensure that the timepicker is set to the most recent timeframe, example "Last 24 hours".</p>
 </blockquote>
 </li>
-</ul>
+</ol>
                 
               
               

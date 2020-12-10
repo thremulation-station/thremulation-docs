@@ -8,7 +8,7 @@ Let's look at an overview of the mini-range and demonstrate a basic exercise wor
 
 <br>
 <p align="center">
-<img src="../../img/ts-topology.png">
+<img src="../images/ts-topology.png">
 </p>
 <br>
 
@@ -24,6 +24,6 @@ There are three basic components:
 # Basic Workflow
 
 <p align="center">
-<img src="../../img/ts-workflow.png">
+<img src="../images/ts-workflow.png">
 </p>
 

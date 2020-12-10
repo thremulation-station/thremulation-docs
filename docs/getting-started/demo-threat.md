@@ -4,7 +4,7 @@ Now that we've gotten everything working, let's get ready to rumble!
 
 <br>
 <p align="center">
-<img src="../../img/ts-legendary.gif">
+<img src="../images/ts-legendary.gif">
 </p>
 <br>
 
@@ -59,6 +59,16 @@ T1059.001             # Technique ID
 
     `Invoke-AtomicTest T1059.001 -TestNumbers 1 -Session $sess -Cleanup`
 
+When it's time to reset back to a baseline, we can again use `stationctl` to run a data reset.
+
+* `sh stationctl`
+* select `3. Management`
+* `7. Soft Reset` and then
+* `Y` to confirm.
+
+This will reset to the snapshots that were taken during the deployment phase.
+
+![](../images/ts-soft-reset.png)
 
 ## Taking Things Further
 
