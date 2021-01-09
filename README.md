@@ -1,4 +1,4 @@
-# thremulation.io ![build-site-status](https://github.com/mocyber/thremulation.io/workflows/build-site-preview/badge.svg)
+# docs.thremulation.io ![build-site-status](https://github.com/mocyber/thremulation.io/workflows/build-site-preview/badge.svg)
 
 This repository will host the user guide website via github pages.
 
