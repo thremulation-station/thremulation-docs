@@ -1,6 +1,6 @@
 # Community Contribution
 
-This document aims to provides instructinos to set up, develop, and submit updates and 
+This document aims to provides instructions to set up, develop, and submit updates and
 features for this project. Here is a high level overview of the process:
 
 - fork the project
@@ -8,8 +8,22 @@ features for this project. Here is a high level overview of the process:
 - setup local environment with docker
 - use the local container to update documentation
 
+### Github Issue
 
-### Install Requirements
+Please create an Issue the proper repository:
+
+* [Project documentation](https://github.com/thremulation-station/thremulation-docs/issues)
+* [Code/additions/anything else](https://github.com/thremulation-station/thremulation-station/issues)
+
+### Community
+
+Please join the [Discord](https://discord.gg/fdNjAbHyHz).
+
+### Email
+
+If all else fails, please feel free to send us an email --> `contact [at] thremulation [dot] io`.
+
+## Install Requirements
 
 This section assumes that you are using macOS. Use the [brew](https://brew.sh/)
 package manager where noted below (and generally whenever possible).  
@@ -18,7 +32,7 @@ package manager where noted below (and generally whenever possible).
   - instructions for installing brew can be found [here](https://brew.sh/)
 ADD
 
-### Git the Things
+## Git the Things
 
 1. Clone the repo locally by copy / pasting the full command by clicking the "Clone" in the top right corner of the web UI:  
   $ `# example command:  git clone <CLONE_URL>`
@@ -33,12 +47,12 @@ ADD
   $ `git checkout <BRANCH_NAME>`
 
 
-### Content Development
+## Content Development
 
 TODO
 
 
-#### Submitting Changes
+## Submitting Changes
 
 After the above workflow is complete, it's time to submit your work for
 approval:

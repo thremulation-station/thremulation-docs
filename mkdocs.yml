@@ -60,7 +60,7 @@ markdown_extensions:
 
 # Page Tree Layout
 nav:
-  - Home: 
+  - Home:
     - Welcome: index.md
     - About TS: home/about.md
     - Topology: home/topology.md
@@ -86,9 +86,10 @@ nav:
     - Lab 1 - Subtitle: handbook/lab1.md
     - Lab 2 - Subtitle: handbook/lab2.md
     - Lab 3 - Subtitle: handbook/lab3.md
-  - Support: 
+  - Support:
     - Troubleshoot: support/troubleshoot.md
     - References: support/references.md
     - Glossary: support/glossary.md
-  - Community: 
+    - Contact: support/contact.md
+  - Community:
     - Contribution: contribution/index.md
