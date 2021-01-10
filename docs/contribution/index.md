@@ -1,6 +1,6 @@
 # Community Contribution
 
-This document aims to provides instructinos to set up, develop, and submit updates and 
+This document aims to provides instructions to set up, develop, and submit updates and
 features for this project. Here is a high level overview of the process:
 
 - fork the project
@@ -8,6 +8,20 @@ features for this project. Here is a high level overview of the process:
 - setup local environment with docker
 - use the local container to update documentation
 
+## Github Issue
+
+Please create an Issue the proper repository:
+
+* [Project documentation](https://github.com/thremulation-station/thremulation-docs/issues)
+* [Code/additions/anything else](https://github.com/thremulation-station/thremulation-station/issues)
+
+## Community
+
+Please join the [Discord](https://discord.gg/fdNjAbHyHz).
+
+## Email
+
+If all else fails, please feel free to send us an email --> `contact [at] thremulation [dot] io`.
 
 ### Install Requirements
 
