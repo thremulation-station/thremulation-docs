@@ -1,6 +1,6 @@
 # docs.thremulation.io ![build-site-status](https://github.com/mocyber/thremulation.io/workflows/build-site-preview/badge.svg)
 
-This repository hosts the documentation and user guides for [Thremulation Station](https://github.com/thremulation-station/thremulation-station).
+This repository hosts the documentation and user guides for the [Thremulation Station](https://github.com/thremulation-station/thremulation-station) project, and is published via github pages at [https://docs.thremulation.io](https://docs.thremulation.io).
 
 
 ### Contribution
