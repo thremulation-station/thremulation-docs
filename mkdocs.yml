@@ -27,8 +27,9 @@ theme:
     code: 'Roboto Mono'
   icon:
     repo: fontawesome/brands/github
-  #logo: 'img/station.png'
-  #favicon: 'img/favicon.ico'
+  favicon: 'images/favicon.ico'
+  logo: 'images/purple-lappy.png'
+  
 
 
 # # Customization
