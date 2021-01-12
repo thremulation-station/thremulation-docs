@@ -31,8 +31,8 @@ jobs:
     - name: Delete current site files
       run: rm -rf ./site/*
       
-    - name: Build latest site
-      run: mkdocs build
+    - name: Deploy latest site to pages branch
+      run: mkdocs gh-deploy
 
     - name: Commit files # commit the output folder
       run: |
