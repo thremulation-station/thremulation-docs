@@ -2,11 +2,11 @@
 site_name: 'Thremulation Station'
 site_description: 'Local Elastic Static Security Testing'
 site_author: 'Thremulation Station'
-#site_url: 'https://github.com/mocyber/thremulation.io'
+site_url: 'https://thremulation.io'
 
 
 # Repository
-repo_url: 'https://github.com/mocyber/thremulation.io'
+repo_url: 'https://github.com/thremulation-station/thremulation-station'
 
 
 #Copyright
@@ -51,7 +51,7 @@ theme:
 markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.superfences
-#  - admonition
+  - admonition
 #  - codehilite:
 #      guess_lang: false
 #  - toc:
@@ -69,10 +69,10 @@ nav:
     - Installation: getting-started/installation.md
     - Deployment: getting-started/deployment.md
     - Initial Access: getting-started/initial-access.md
-    - Management: getting-started/manage.md
     - Demo Threat: getting-started/demo-threat.md
   - Toolset:
     - Overview: toolset/index.md
+    - Atomic Usage: toolset/atomicredteam.md
     - Caldera Usage: toolset/caldera-usage.md
   - Hunting Handbook:
     - What is Threat Hunting?: handbook/what-is-threathunting.md
@@ -87,6 +87,7 @@ nav:
     - Lab 2 - Subtitle: handbook/lab2.md
     - Lab 3 - Subtitle: handbook/lab3.md
   - Support:
+    - Management: support/manage.md
     - Troubleshoot: support/troubleshoot.md
     - References: support/references.md
     - Glossary: support/glossary.md

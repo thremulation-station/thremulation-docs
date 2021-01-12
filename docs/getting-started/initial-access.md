@@ -28,7 +28,7 @@ This adversary emulation toolset is accessed by sshing into the "elastic" box an
 - start a powershell session
     - $`pwsh`
 
-View the [usage guide](../toolset/image.md) to learn more about executing Atomic Red Team.
+View the [usage guide](../toolset/atomicredteam.md) to learn more about executing Atomic Red Team.
 
 1. **Kibana WebUI - Detect Threats**
 

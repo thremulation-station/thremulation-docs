@@ -1,13 +1,17 @@
-# Thremulation Station
+# Welcome
+
+Thanks for visting the techincal documentation for the Thremulation Station project!
 
 <br>
+
+<!-- <br>
 <p align="center">
 <img src="images/placeholder-logo.png">
 </p>
-<br>
+<br> -->
 
 
-# What is it?
+# What is Thremulation Station?
 
 Thremulation Station is an approachable and small-scale threat emulation and detection range. It primarily uses Elastic Security and Atomic Redteam to emulate and detect adversary activity. 
 
