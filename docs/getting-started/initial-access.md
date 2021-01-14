@@ -1,43 +1,63 @@
 # Initial Access
 
-Now it's time to really get into things.
+If you've just completed a [Deployment](/getting-started/deployment/), it's time to really get into things by accessing the primary user interfaces in the project.
 
 
 ## Getting Status
 
-Now that we've deployed, let's make sure everything is up and running. So, fire `stationctl` back up and let's do that.
+First, let's make sure everything is up and running. Let's fire `stationctl` back up and use the "Status" menu:
 
-`sh stationctl`, select `2. Status`.
+- Run the CLI: $ `./stationctl`
+- Select option 3: "`show current deployment`"
 
-This will run through a check of the Vagrant boxes, VirtualBox machines, and the status of Elasticsearch and Kibana.
+This will run through a check of you new Vagrant boxes to see if they're up and communicating over all the necessary channels.
 
-Of note, because Elasticsearch is only a single node installation, the status will always be Yellow. Everything is fine.
+<br>
+<p align="center">
+<img src="/images/ts-access1.png" width="75%" alt="">
+</p>
+<br>
 
-![](../images/ts-status.png)
+This provides some very valuable information on the status of our local range:
+
+1. Virtualbox machine state
+1. Elasticsearch API availability
+1. Kibana web interface availability
+
+> **Note:** Because Elasticsearch is a single node installation, the status will show "yellow". Everything is fine.
+
 
 ## Interface Login
 
 The environment is designed for users to interact with 2 primary interfaces:
 
-1. **Atomic Redteam - Execute Threats**
+- Atomic Redteam - **execute** threats
+- Kibana WebUI - **detect** threats
 
-This adversary emulation toolset is accessed by sshing into the "elastic" box and starting a powershell session.
 
-- From the $(pwd)/vagrant directory, `ssh` to the elastic vbox:
-    - $`vagrant ssh ts.elastomic`
-- start a powershell session
-    - $`pwsh`
+### Atomic Red Team
 
-View the [usage guide](../toolset/atomicredteam.md) to learn more about executing Atomic Red Team.
+This adversary emulation toolset is accessed by ssh'ing into the `ts.elastomic` box and starting up a powershell session.
 
-1. **Kibana WebUI - Detect Threats**
+1. From the vagrant/ directory:
+    - $ `vagrant ssh ts.elastomic`
+1. Start a powershell session:
+    - $ `pwsh`
 
-    - To reach Kibana browse to `localhost:5601`
+View the [Atomic usage guide](../toolset/atomicredteam.md) to learn more about the general capabilities of Atomic Red Team.
 
-        Kibana Credentials
-        user: `vagrant`
-        pass: `vagrant`
 
-    - Once in Kibana click the 3 hash dropdown menu in the upper left corner of the UI and select the "Discover" tab.
+### Kibana Web Interface
 
-    > Ensure that the timepicker is set to the most recent timeframe, example "Last 24 hours".
+1. To reach Kibana browse to `localhost:5601`
+1. Login with the credentials:
+    - user: `vagrant`
+    - pass: `vagrant`
+
+1. Once in Kibana click the hamburger menu in the upper left corner of the UI and select the "Discover" tab.
+
+
+<br>
+
+---
+Now that you've set up the primary user interfaces, it's time to move on to running a functions check!

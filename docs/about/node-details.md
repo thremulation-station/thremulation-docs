@@ -1,11 +1,7 @@
-# Node Roles
-
-This section lists the building blocks of how each node is set up.
-
+# Node Details
+This section provices details on each node and what surface area is available.
 
 ## Elastomic
-
-#### Purpose
 The "`elastomic`" node is the first and only _required_ node, and is the crux of the entire project. It's essentially a "Purple Teaming" control box that is used to **both** _execute attacks and capture logs of those attacks_.
 
 #### Features
@@ -15,14 +11,12 @@ The "`elastomic`" node is the first and only _required_ node, and is the crux of
 * Atomic Redteam UI
 * Powershell
 
-#### Running Services
+#### Enabled Services
 
 * Elasticsearch
 * Kibana
 
 ## Windows10 Workstation
-
-#### Purpose
 
 The Windows10 node acts as the primary _target system_ to execute effects against, in
 order to generate security event data.
@@ -38,26 +32,25 @@ order to generate security event data.
 * Set the network type for the virtual adapter to 'Home' and not bug you about it
 * Turns autologin *off*
 
-#### Running Services
+#### Enabled Services
 
 * Elastic Agent
 * Sysmon
 
 ## Centos Server
 
-#### Purpose
-The intent of the `centos` node is emulate hosting the typical services hosted on a small enterprise environment and provided another OS attack surface.
+The intent of the `ts.centos7` box is emulate hosting the typical services hosted on a small enterprise environment and provided another OS attack surface.
 
 #### Features
 
 * Built from CentOS 7 ISO
-* SELinux enforcing
+* SELinux enforced
 * One user `vagrant`
 * All updates applied during build process
 * Includes VM guest additions
 * Turns autologin *off*
 
-#### Running Services
+#### Enabled Services
 
 * Auditbeat
 * Auditd

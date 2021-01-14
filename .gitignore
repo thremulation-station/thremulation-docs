@@ -1,6 +1,2 @@
 myenv/
 .DS_Store
-
-# ignore generated site
-
-site/*

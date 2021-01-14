@@ -71,7 +71,7 @@ nav:
     - Installation: getting-started/installation.md
     - Deployment: getting-started/deployment.md
     - Initial Access: getting-started/initial-access.md
-    - Demo Threat: getting-started/demo-threat.md
+    - Functions Check: getting-started/functions-check.md
   - Toolset:
     - Overview: toolset/index.md
     - Atomic Usage: toolset/atomicredteam.md

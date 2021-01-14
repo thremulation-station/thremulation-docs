@@ -8,7 +8,7 @@
 
 ## The Problem to Solve
 
-Not everyone has a blade server heating their home from a closet...and not everyone, be it a junior hunter/red teamer who is just getting started or an operator with 20 years experience, is an engineer that can stitch all of the complex services together to grow or sharpen your skills.
+Not everyone has a blade server heating their home from a closet... and not everyone has the time or engineering skills that can stitch  complex systems together to create an environment to sharpen their skills. Whether you're just getting started, a junior analyst, or a weathered and pale operator with years hunting experience.
 
 
 ## Use Cases
@@ -22,20 +22,22 @@ This project has many practical use cases, and we're excited to see how it's use
 - Writing and testing threat [tactics and techniques](https://attack.mitre.org/tactics/enterprise/)
 
 
-Let's look at an overview of the mini-range and demonstrate a basic exercise workflow.
-<br>
-
-
 ## Workflow
 
-There are a lot of moving pieces, but the main components of the project are:
+Let's look at an overview of the mini-range and demonstrate a basic exercise workflow.
 
-1. The Elastic Stack - for analyzing data
-2. Atomic Red - for generating adversary activity
-3. Victim machines - to be targeted by adversary activity
-
+<br>
 <br>
 <p align="center">
 <img src="/images/ts-workflow.png">
 </p>
+
+1. Access the `ts.elastomic` control box interfaces
+1. Choose your target host (currently windows10 or centos)
+2. Launch either a prebuilt threat tactic / technique or your own custom
+3. Victim machines report back to `ts.elastomic` where artificacts can be observed
+
 <br>
+
+---
+The next page will cover some basic hardeware and requirements.

@@ -1,66 +1,110 @@
 # Deployment
 
-Once you have all the requirements installed and repo staged locally, it's time to deploy 
-your threat hunting range.
+Once you have all the requirements installed and the project code staged locally, it's finally time to deploy your detection range.
 
 
-## Introduction to Station Control
-
-![](../images/ts-main.png)
-
-
-Thremulation Station comes with a terminal control interface called `stationctl`. It is used to perform most major tasks within the environment. The main features provided are:
+## Station Control Intro
 
 <br>
+<p align="center">
+<img src="/images/ts-deploy1.png" width="75%" alt="">
+</p>
+<br>
 
-> `stationctl` is a script located in the vagrant/ directory, and must be executed from that folder to work properly
 
-TODO IMG
+Thremulation Station comes with a terminal control interface called `stationctl`. It is used to perform most major tasks within the environment. An overview of some of the tasks provided are:
 
-- configure and deploy a new local range
+- configure and deploy a range
 - check the status of a current range
 - management tasks on a current range
     - reloading / rebuilding boxes
     - data reset (clearing indexes)
     - various troubleshooting steps
 
-Let's continue setting up a local testing range by moving into the deployment steps.
+<br>
+
+!!! warning "Warning"
+    `stationctl` is a script located in the vagrant directory, and **must be executed from** `<project>/vagrant`!
 
 
-### Deployment Options
+### Launching the CLI
 
-In the previous section you installed requirements and cloned the repo locally. Let's get this thing going!
+Let's start up `stationctl` for the first time to prepare to deploy. 
 
-1. Move into this repo's vagrant directory. Example: `cd thremulation-station/vagrant`
+1. Ensure that you're in the project's vagrant directory, ex: $ `cd thremulation-station/vagrant`
+1. Execute the Station Control script: $ `./stationctl`
+1. To enter the "Deployment" menu select option `2`
 
-1. Run the `stationctl` control script. Example: $ `./stationctl`
+> **Note:** To exit the CLI you can enter `E` to exit, or less gracefully `ctrl + c` at any time
 
-1. Select option `1` and `<enter>` to move into the deploy menu
 
-![](../images/ts-deploy1.png)
+## Deployment
 
-Here you can see the main menu and it's options. From here, you have 2 paths you can take...
+A "deployment" consists of selecting the nodes (VMs) you want, downloading them, and turning them all on in sequence. There are 3 distinct types of deployments to choose from in the CLI:
+
+<br>
+<p align="center">
+<img src="/images/ts-deploy2.png" width="75%" alt="">
+</p>
+<br>
+
+- Quick - give me all the things
+- Custom - choose the just the boxes you want
+- Staged - more a download than a deployment for later
+
+
+<!-- ![](../images/ts-deploy1.png) -->
 
 
 #### Quick Deployment
 
-A Quick Deployment is the first and fastest option. It enables all VMs included in the range, meaning the control machine and both a windows and linux target box.
+A Quick Deployment is the first and fastest option. It enables all VMs included in the range, meaning the control machine, a Windows10 workstation, and a Linux server.
 
-![](../images/ts-deploy2.png)
+<br>
+<p align="center">
+<img src="/images/ts-deploy3.png" width="75%" alt="">
+</p>
+<br>
 
-1. Select option `1` and `<enter>`
+1. Select option #`1` and then confirm that you want to depoy this configuration and kick things off. 
 
-1. Then confirm this configuration to kick things off. This will download boxes / spin up / provision all boxes.
+1. So what's happening here? This deployment will download, turn on, and configure (provision) all 3 boxes in the order displayed.
 
-1. Get yourself some fresh coffee, this will take 10-20 min depending on your connection.
+1. Get yourself some fresh coffee, this will take 15-30 minutes, depending on your particular bandwidth available.
+
+<br>
+<p align="center">
+<img src="/images/ts-deploy5.png" width="100%" alt="">
+</p>
+<br>
+
+!!! warning "Attention!"
+    This is a bandwidth-intensive task that _will_ take a while. But take heart, this is the one tax you'll have to pay, and it happens up front (and only the **first** time you deploy). Get some coffee, and drink you cup slowly, savoring these infrequently quiet moments.
+
+> **Also Note:** If you don't drink coffee, I don't trust you and I'm not sure I want you having any part of this.
+
+<br>
+#### Custom Deployment
+
+A custom deployment works generally the same way as quick one, but provides you the option to choose what target VMs to deploy alongside the control (ts.elastomic) box. 
+
+##### Example:
+A great usecase for this would be if you're _very_ limited on hardware resources, and you only intend on emulating and detecting threats against a linux server. You have the flexibility to say (N)o to Windows and (Y)es to Linux, which would look like so:
+
+<br>
+<p align="center">
+<img src="/images/ts-deploy4.png" width="75%" alt="">
+</p>
+<br>
+
+
+
+#### Staged Deployment
+
+The staged deployment selection process works similarly to the others, but only pulls (donwloads) the boxes you select for later playtime. 
+
 
 <br>
 
-> **Note:** This is a bandwidth-intensive task that may take a while. But take heart, this will only happen the first time you deploy. Get some coffee, and drink you cup slowly, savoring these infrequently quiet moments.
-
-> **Note: Note:** If you don't drink coffee, I don't trust you and I don't want you to have any part of this.
-
-#### Custom Deployment
-
-TODO
-
+---
+The next page will cover establishing initial access to the conrol box.

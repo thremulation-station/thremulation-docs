@@ -14,6 +14,16 @@ Thremulation Station is an approachable and small-scale threat emulation and det
 !!! info "TL;DR"
     If you're ready to skip the reading and jump into things, head to the [getting started / installation](../getting-started/installation.md).
 
+There are a lot of tools and moving pieces, but the main building blocks are:
+
+- Virtualbox
+- Vagrant
+- Elasticsearch
+- Kibana
+- Elastic Endpoint Agent
+- Atomic Red Team
+- Caldera
+
 
 ## Project Goals
 
