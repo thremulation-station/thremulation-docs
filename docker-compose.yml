@@ -1,9 +1,21 @@
+#env variables ref: https://hub.docker.com/r/polinux/mkdocs
+
 version: "2.4"
 
 services:
   kit-docs:
     image: squidfunk/mkdocs-material:latest
-    volumes:
-      - .:/docs
+    restart: always
     ports:
       - 8000:8000
+    environment:
+      LIVE_RELOAD_SUPPORT: 'true'
+      ADD_MODULES: 'fontawesome-markdown mkdocs-git-revision-date-localized-plugin mkdocs-material mkdocs-awesome-pages-plugin pymdown-extensions markdown-emdash mkdocs-exclude'
+      FAST_MODE: 'true'
+      #DOCS_DIRECTORY: '/mkdocs'
+      GIT_REPO: 'git@github.com:thremulation-station/docs.git'
+      UPDATE_INTERVAL: 15
+      AUTO_UPDATE: 'true'
+    volumes:
+      - .:/docs
+      - $HOME/.ssh/github_rsa:/root/.ssh/github_rsa

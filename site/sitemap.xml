@@ -1,111 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/home/about/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/home/topology/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/home/node-roles/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/getting-started/installation/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/getting-started/deployment/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/getting-started/initial-access/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/getting-started/demo-threat/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/toolset/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/toolset/atomicredteam/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/toolset/caldera-usage/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/what-is-threathunting/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/build-your-base/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/whats-in-the-data/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/tools/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/developing-methodology/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/understanding-adversary/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/ts-walkthrough/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/writing-detections/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/lab1/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/lab2/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/handbook/lab3/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/support/manage/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/support/troubleshoot/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/support/references/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/support/glossary/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-01-11</lastmod>
+     <loc>https://thremulation.io/support/contact/</loc>
+     <lastmod>2021-01-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://thremulation.io/contribution/</loc>
+     <lastmod>2021-01-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

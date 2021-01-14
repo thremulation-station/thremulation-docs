@@ -32,6 +32,7 @@ know what you're doing, we _highly recommend_ using `pyenv` to manage your local
     - install your preferred version of python. ex: `pyenv install -v 3.8.6`
     - set this new version as active for your user: `pyenv global 3.8.6`
     - this can be confirmed by running: `pyenv versions`
+    - install mkdocs and addons with your new clean python env: `pip3 install -r requirements.txt`
 
 ### Git the Things
 

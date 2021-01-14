@@ -1,0 +1,3 @@
+# FAQs
+
+coming soon

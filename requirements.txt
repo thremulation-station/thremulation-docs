@@ -1,6 +1,6 @@
 mkdocs
-mkdocs-awesome-pages-plugin
 mkdocs-material
+mkdocs-awesome-pages-plugin
 pymdown-extensions
 markdown-emdash
 mkdocs-exclude
