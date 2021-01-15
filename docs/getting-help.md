@@ -1,3 +1,0 @@
-# Getting Help
-
-Need help? 

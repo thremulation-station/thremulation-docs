@@ -64,7 +64,6 @@ nav:
   - Home: 
     - index.md
     - community.md
-    - getting-help.md
     - contribution.md
   - About:
     - Overview: about/overview.md
