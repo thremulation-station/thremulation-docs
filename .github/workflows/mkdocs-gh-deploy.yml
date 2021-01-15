@@ -26,5 +26,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CUSTOM_DOMAIN: docs.thremulation.io
-        CONFIG_FILE: folder/mkdocs.yml
+        #CONFIG_FILE: folder/mkdocs.yml
         #EXTRA_PACKAGES: build-base
