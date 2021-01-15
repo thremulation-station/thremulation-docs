@@ -25,17 +25,17 @@ Let's kick the process off by installing the required software for your host pla
 
       1. Ensure you have the [Homebrew](https://brew.sh/) package manager, which is used for all subsequent installs
       1. Update your new brew install by running: $ `brew update`
-      1. Install Virtualbox: $ `choco install virtualbox`
-      1. Install Vagrant: $ `choco install vagrant`
-      1. Install Git: $ `choco install git`
+      1. Install Virtualbox: > `brew install --cask virtualbox`
+      1. Install Vagrant: > `brew install --cask vagrant`
+      1. Install Git: > `brew install git`
       1. Install Vagrant plugins: $ `vagrant plugin install vagrant-disksize vagrant-vbguest`
 
 === "Windows10"
   
       1. We strongly recommend installing the [Chocolatey](https://chocolatey.org/) package manager, which is used for all subsequent installs
-      1. Install Virtualbox: > `brew install --cask virtualbox`
-      1. Install Vagrant: > `brew install --cask vagrant`
-      1. Install Git: > `brew install git`
+      1. Install Virtualbox: $ `choco install virtualbox`
+      1. Install Vagrant: $ `choco install vagrant`
+      1. Install Git: $ `choco install git`
       1. Install Vagrant plugins: > `vagrant plugin install vagrant-disksize vagrant-vbguest`
       <br>
       
