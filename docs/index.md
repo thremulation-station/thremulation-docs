@@ -1,4 +1,4 @@
-# Welcome
+# Thremulation Station
 
 <br>
 <p align="center">
@@ -25,32 +25,21 @@
 <br>
 Thremulation Station is an approachable small-scale threat emulation and detection range. It leans on Atomic Red Team for ***emulating*** threats, and the Elastic Endpoint Agent for ***detection***.
 
-!!! info "TL;DR"
-    If you're ready to skip the reading and jump into things, head to the [Quickstart / Installation](/quickstart/installation.md) section.
-
-There are a lot of tools and moving pieces, but the main building blocks are:
-
-- Virtualbox
-- Vagrant
-- Elasticsearch
-- Kibana
-- Elastic Endpoint Agent
-- Atomic Red Team
-- Caldera
+> **TL;DR** If you're ready to skip the reading and jump into things, head to the [Quickstart / Installation](/quickstart/installation.md) section.
 
 
 ## Project Goals
 
 Our goal from the very beginning has been to provide the following:
 
-1. lightweight range that can operate on a laptop with a _minimum_ of 4 threads and 8G of RAM
-1. support the big 3 host operating systems (initial linux path is RHEL-based)
-1. present users a smooth path to execute threats and observe them with Elastic 
-1. provide a singular TUI (Station Control) that can be used to manage all aspects
+1. Lightweight range that can operate on a laptop with a _minimum_ of 4 threads and 8G of RAM
+1. Support the big 3 host operating systems (initial linux path is RHEL-based)
+1. Present users a smooth path to execute threats and observe them with Elastic 
+1. Provide a singular TUI (Station Control) that can be used to manage all aspects
 
-!!! note "Note"
-    You'll be introduced to `./stationctl` early in the [Getting Started](/getting-started/deployment/#introduction-to-station-control) section and use it to deploy boxes, get status, manage and clear data, and much more. A full reference guide is located at [support / stationctl](/support/stationctl.md).
+## Getting Started
 
+Ready to jump into things? Head over to the documentation at [docs.thremulation.io](https://www.docs.thremulation.io)!
 
 <!-- ## Contribution
 
