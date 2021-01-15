@@ -32,7 +32,7 @@ jobs:
       run: rm -rf ./site/*
       
     - name: Deploy latest site to pages branch
-      run: mkdocs gh-deploy
+      run: mkdocs build
 
     - name: Commit files # commit the output folder
       run: |

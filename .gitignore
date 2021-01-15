@@ -2,4 +2,4 @@ myenv/
 .DS_Store
 
 # ignore rendered site files
-site/
+site/*
