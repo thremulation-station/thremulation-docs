@@ -104,9 +104,9 @@ As for next immediate steps, you have a few options:
 If you'd like to dig deeper into all the tools that have been made available in Thremulation Station, head over to the [Toolset](../toolset/index.md) section in the top navigation bar. There you will find details and user walkthroughs on some of the most important tools in the belt.
 
 
-#### Hunting Handbook
+<!-- #### Hunting Handbook
 
-If you're ready to embark on a start-from-nothing guided journey on how to learn host-based threat hunting, check out the [Hunting Handbook](../handbook/what-is-threathunting.md). While it's primary focus is to ramp new analysts and learners, there are plenty of great information useful to everyone.
+If you're ready to embark on a start-from-nothing guided journey on how to learn host-based threat hunting, check out the [Hunting Handbook](../handbook/what-is-threathunting.md). While it's primary focus is to ramp new analysts and learners, there are plenty of great information useful to everyone. -->
 
 
 #### Lone Wolf

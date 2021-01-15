@@ -97,7 +97,7 @@ Let's kick the process off by installing the required software for your host pla
 
 
 !!! note "Note:"
-      If you don't see your OS flavor listed, consider [contributing](../contribution/index.md)!
+      If you don't see your OS flavor listed, please consider contributing!
 
 ## Getting the Project
 

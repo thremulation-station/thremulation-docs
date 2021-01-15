@@ -1,5 +1,5 @@
 # Node Details
-This section provices details on each node and what surface area is available.
+This section provices details on each node and what surface area is available. So just what is going on on each virtual machine?
 
 ## Elastomic
 The "`elastomic`" node is the first and only _required_ node, and is the crux of the entire project. It's essentially a "Purple Teaming" control box that is used to **both** _execute attacks and capture logs of those attacks_.

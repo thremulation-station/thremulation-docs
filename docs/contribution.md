@@ -1,4 +1,4 @@
-# Community Contribution
+# Contribution
 
 This document aims to provides instructions to set up, develop, and submit updates and
 features for this project. Here is a high level overview of the process:

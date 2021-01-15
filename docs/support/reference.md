@@ -1,4 +1,4 @@
-# References
+# External References
 
 ## Blue Team
 
@@ -12,7 +12,4 @@
 
 [Atomic Red Team](https://atomicredteam.io)  
 [Atomic Redteam Docs](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/Indexes/Indexes-Markdown/windows-index.md)  
-[CALDERA](https://github.com/mitre/caldera)  
-
-
-TODO
+[Caldera](https://github.com/mitre/caldera)  

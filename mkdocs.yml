@@ -61,40 +61,40 @@ markdown_extensions:
 
 # Page Tree Layout
 nav:
-  - Home: index.md
+  - Home: 
+    - index.md
+    - community.md
+    - getting-help.md
+    - contribution.md
   - About:
     - Overview: about/overview.md
     - Requirements: about/requirements.md
-    - Node Details: about/node-details.md
-    - FAQs: about/faqs.md
-  - Getting Started:
-    - Installation: getting-started/installation.md
-    - Deployment: getting-started/deployment.md
-    - Initial Access: getting-started/initial-access.md
-    - Functions Check: getting-started/functions-check.md
-  - Toolset:
-    - Overview: toolset/index.md
-    - Atomic Usage: toolset/atomicredteam.md
-    - Caldera Usage: toolset/caldera-usage.md
-  - Hunting Handbook:
-    - What is Threat Hunting?: handbook/what-is-threathunting.md
-    - Build Your Base: handbook/build-your-base.md
-    - What's in the Data: handbook/whats-in-the-data.md
-    - Tools of the Trade: handbook/tools.md
-    - Developing a Methodology: handbook/developing-methodology.md
-    - Understanding the Adversary: handbook/understanding-adversary.md
-    - Platform Walkthrough: handbook/ts-walkthrough.md
-    - Writing Resilient Detections: handbook/writing-detections.md
-    - Lab 1 - Subtitle: handbook/lab1.md
-    - Lab 2 - Subtitle: handbook/lab2.md
-    - Lab 3 - Subtitle: handbook/lab3.md
-  - Support:
+    - Machine Details: about/machine-details.md
+    # - FAQs: about/faqs.md
+  - Quickstart:
+    - Installation: quickstart/installation.md
+    - Deployment: quickstart/deployment.md
+    - Initial Access: quickstart/initial-access.md
+    - Functions Check: quickstart/functions-check.md
+  - Tool Usage:
+    - Overview: tool-usage/index.md
+    - Caldera Usage: tool-usage/caldera-usage.md
+    # - Atomic Usage: tool-usage/atomicredteam.md
+  # - Hunting Handbook:
+  #   - What is Threat Hunting?: handbook/what-is-threathunting.md
+  #   - Build Your Base: handbook/build-your-base.md
+  #   - What's in the Data: handbook/whats-in-the-data.md
+  #   - Tools of the Trade: handbook/tools.md
+  #   - Developing a Methodology: handbook/developing-methodology.md
+  #   - Understanding the Adversary: handbook/understanding-adversary.md
+  #   - Platform Walkthrough: handbook/ts-walkthrough.md
+  #   - Writing Resilient Detections: handbook/writing-detections.md
+  #   - Lab 1 - Subtitle: handbook/lab1.md
+  #   - Lab 2 - Subtitle: handbook/lab2.md
+  #   - Lab 3 - Subtitle: handbook/lab3.md
+  - Support & Reference: 
     - Home: support/index.md
-    - stationctl: support/stationctl.md
-    - Management: support/manage.md
-    - Troubleshoot: support/troubleshoot.md
-    - References: support/references.md
-    - Glossary: support/glossary.md
-    - Contact: support/contact.md
-  - Community:
-    - Contribution: contribution/index.md
+    - Station Control: support/stationctl.md
+    - Troubleshooting: support/troubleshooting.md
+    # - Glossary: support/glossary.md
+    - External Reference: support/reference.md
