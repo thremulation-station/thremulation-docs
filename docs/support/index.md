@@ -5,7 +5,7 @@ This section is dedicated to getting the help you need with issues or more infor
 ## Support
 
 - [Station Control CLI](stationctl.md)
-- [Basic Troubleshooting](troubleshoot.md)
+- [Basic Troubleshooting](troubleshooting.md)
 
 
 ## Reference

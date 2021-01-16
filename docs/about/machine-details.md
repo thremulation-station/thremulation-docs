@@ -60,4 +60,4 @@ The intent of the `ts.centos7` box is emulate hosting the typical services hoste
 * Rsyslog
 * Samba
 
-> More details on the usage of each tool can be found in the [Toolset Section](../toolset/index.md).
+> More details on the usage of each tool can be found in the [Tool Usage Section](../tool-usage/index.md).

@@ -101,7 +101,7 @@ As for next immediate steps, you have a few options:
 
 #### Toolset Section
 
-If you'd like to dig deeper into all the tools that have been made available in Thremulation Station, head over to the [Toolset](../toolset/index.md) section in the top navigation bar. There you will find details and user walkthroughs on some of the most important tools in the belt.
+If you'd like to dig deeper into all the tools that have been made available in Thremulation Station, head over to the [Tool Usage](../tool-usage/index.md) section in the top navigation bar. There you will find details and user walkthroughs on some of the most important tools in the belt.
 
 
 <!-- #### Hunting Handbook

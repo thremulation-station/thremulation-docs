@@ -44,8 +44,6 @@ This adversary emulation toolset is accessed by ssh'ing into the `ts.elastomic` 
 1. Start a powershell session:
     - $ `pwsh`
 
-View the [Atomic usage guide](../toolset/atomicredteam.md) to learn more about the general capabilities of Atomic Red Team.
-
 
 ### Kibana Web Interface
 

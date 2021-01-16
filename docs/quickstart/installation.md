@@ -25,18 +25,21 @@ Let's kick the process off by installing the required software for your host pla
 
       1. Ensure you have the [Homebrew](https://brew.sh/) package manager, which is used for all subsequent installs
       1. Update your new brew install by running: $ `brew update`
-      1. Install Virtualbox: > `brew install --cask virtualbox`
-      1. Install Vagrant: > `brew install --cask vagrant`
-      1. Install Git: > `brew install git`
+      1. Install Virtualbox: $ `brew install --cask virtualbox` (password entry required)
+      1. _macOS security:_ - click "Open Security Preferences"
+      1. _macOS security:_ - unlock the "Security & Privacy" windows and click "Allow"
+      1. Reboot your machine in order to continue the TS install process
+      1. Install Vagrant: $ `brew install --cask vagrant`
+      1. Install Git: $ `brew install git`
       1. Install Vagrant plugins: $ `vagrant plugin install vagrant-disksize vagrant-vbguest`
 
 === "Windows10"
   
       1. We strongly recommend installing the [Chocolatey](https://chocolatey.org/) package manager, which is used for all subsequent installs
-      1. Install Virtualbox: $ `choco install virtualbox`
-      1. Install Vagrant: $ `choco install vagrant`
-      1. Install Git: $ `choco install git`
-      1. Install Vagrant plugins: > `vagrant plugin install vagrant-disksize vagrant-vbguest`
+      1. Install Virtualbox: PS> `choco install virtualbox`
+      1. Install Vagrant: PS> `choco install vagrant`
+      1. Install Git: PS> `choco install git`
+      1. Install Vagrant plugins: PS> `vagrant plugin install vagrant-disksize vagrant-vbguest`
       <br>
       
       > **Note:** Vagrant requires a restart as part of the installation!.
@@ -103,6 +106,7 @@ Let's kick the process off by installing the required software for your host pla
 
 Now that you have all the requirements installed, it's time to clone the project code locally:  
 
+1. Change directories into wherever you prefer the repo to be. For example: $ `cd ~/code`
 1. Clone the repo: $ `git clone https://github.com/thremulation-station/thremulation-station.git`
 1. Move into the new project folder: $ `cd thremulation-station`
 

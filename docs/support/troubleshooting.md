@@ -4,7 +4,19 @@ Need help? This pages is where we cover some of the most common questions, and s
 
 ## General
 
-_coming soon_
+### macOS Virtualbox Install
+
+In order to install Virtualbox, the software publisher must be explicitly allowed (Oracle). Use macOS "System Preferences" to proceed:
+
+<img src="../../images/oracle-blocked-dark.png" width="50%" alt="">
+
+1. Click "Open Security Preferences"
+
+    <img src="../../images/security-privacy-allow.png" width="60%" alt="">
+
+1. Unlock the "Security & Privacy" windows and click "Allow"
+1. Reboot as prompted and continue the [installation guide]()
+
 
 
 <!-- ### Shutdown

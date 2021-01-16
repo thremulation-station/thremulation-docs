@@ -67,9 +67,7 @@ A Quick Deployment is the first and fastest option. It enables all VMs included 
 <br>
 
 1. Select option #`1` and then confirm that you want to depoy this configuration and kick things off. 
-
 1. So what's happening here? This deployment will download, turn on, and configure (provision) all 3 boxes in the order displayed.
-
 1. Get yourself some fresh coffee, this will take 15-30 minutes, depending on your particular bandwidth available.
 
 <br>
