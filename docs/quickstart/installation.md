@@ -26,9 +26,8 @@ Let's kick the process off by installing the required software for your host pla
       1. Ensure you have the [Homebrew](https://brew.sh/) package manager, which is used for all subsequent installs
       1. Update your new brew install by running: $ `brew update`
       1. Install Virtualbox: $ `brew install --cask virtualbox` (password entry required)
-      1. _macOS security:_ - click "Open Security Preferences"
-      1. _macOS security:_ - unlock the "Security & Privacy" windows and click "Allow"
-      1. Reboot your machine in order to continue the TS install process
+      1. In order to continue, you must allow these changes in [macOS security preferences](https://docs.thremulation.io/support/troubleshooting/#macos-virtualbox-install)
+      1. After the prompted reboot, you're ready to continue the install process!
       1. Install Vagrant: $ `brew install --cask vagrant`
       1. Install Git: $ `brew install git`
       1. Install Vagrant plugins: $ `vagrant plugin install vagrant-disksize vagrant-vbguest`
