@@ -31,11 +31,11 @@ Thremulation Station comes with a terminal control interface called `stationctl`
 
 Let's start up `stationctl` for the first time to prepare to deploy. 
 
-1. Ensure that you're in the project's vagrant directory, ex: $ `cd thremulation-station/vagrant`
+1. Ensure that you're in the project's vagrant directory, example: `~/code/thremulation-station/vagrant`
 1. Execute the Station Control script: $ `./stationctl`
-1. To enter the "Deployment" menu select option `2`
+1. To enter the "Deployment" menu select **option #**`2`
 
-> **Note:** To exit the CLI you can enter `E` to exit, or less gracefully `ctrl + c` at any time
+> **Note:** To exit the CLI you can enter `E` to exit, or less gracefully, `ctrl + c` at any time
 
 
 ## Deployment
@@ -66,9 +66,10 @@ A Quick Deployment is the first and fastest option. It enables all VMs included 
 </p>
 <br>
 
-1. Select option #`1` and then confirm that you want to depoy this configuration and kick things off. 
+1. Select **option #**`1` and then `Y` to confirm that you want to depoy this configuration and kick things off. 
 1. So what's happening here? This deployment will download, turn on, and configure (provision) all 3 boxes in the order displayed.
 1. Get yourself some fresh coffee, this will take 15-30 minutes, depending on your particular bandwidth available.
+1. Please note, if you're on a Windows10 host system, you will need to allow "Allow Connections" in the windows firewall for _private_ connections.
 
 <br>
 <p align="center">

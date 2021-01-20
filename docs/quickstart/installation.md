@@ -34,10 +34,14 @@ Let's kick the process off by installing the required software for your host pla
 
 === "Windows10"
   
-      1. We strongly recommend installing the [Chocolatey](https://chocolatey.org/) package manager, which is used for all subsequent installs
-      1. Install Virtualbox: PS> `choco install virtualbox`
-      1. Install Vagrant: PS> `choco install vagrant`
-      1. Install Git: PS> `choco install git`
+      _The [Chocolatey](https://chocolatey.org/) package manager is the recommended method for Windows10 installation. Get this requirement first, and then use for all following steps._
+
+      1. Install Git: PS> `choco install -y git`
+      1. Launch the "Git Bash" terminal emulator and "___Run as administrator___"
+      1. Use this new Git Bash terminal to perform the below steps
+      1. Install Virtualbox: PS> `choco install -y virtualbox`
+      1. Install Vagrant: PS> `choco install -y vagrant`
+      1. When politely asked to, ___reboot your machine___!
       1. Install Vagrant plugins: PS> `vagrant plugin install vagrant-disksize vagrant-vbguest`
       <br>
       
@@ -107,7 +111,7 @@ Now that you have all the requirements installed, it's time to clone the project
 
 1. Change directories into wherever you prefer the repo to be. For example: $ `cd ~/code`
 1. Clone the repo: $ `git clone https://github.com/thremulation-station/thremulation-station.git`
-1. Move into the new project folder: $ `cd thremulation-station`
+1. Move into the new project folder, and more specifically the "vagrant" dir: $ `cd thremulation-station/vagrant`
 
 
 <br>
