@@ -2,7 +2,7 @@
 
 <br>
 <p align="center">
-<img src="/images/ts-topology.png">
+<img src="/images/ts-topology2.png">
 </p>
 <br>
 
@@ -29,7 +29,7 @@ Let's look at an overview of the mini-range and demonstrate a basic exercise wor
 <br>
 <br>
 <p align="center">
-<img src="/images/ts-workflow.png">
+<img src="/images/ts-workflow2.png">
 </p>
 
 1. Access the `ts.elastomic` control box interfaces
