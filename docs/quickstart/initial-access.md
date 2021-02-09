@@ -1,6 +1,6 @@
 # Initial Access
 
-If you've just completed a [Deployment](/getting-started/deployment/), it's time to really get into things by accessing the primary user interfaces in the project.
+If you've just completed a [Deployment](https://docs.thremulation.io/quickstart/deployment/), it's time to really get into things by accessing the primary user interfaces in the project.
 
 
 ## Getting Status

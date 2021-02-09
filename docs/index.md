@@ -49,7 +49,7 @@ Our goal from the very beginning has been to provide the following:
 1. provide a singular TUI (Station Control) that can be used to manage all aspects
 
 !!! note "Note"
-    You'll be introduced to `./stationctl` early in the [Getting Started](/getting-started/deployment/#introduction-to-station-control) section and use it to deploy boxes, get status, manage and clear data, and much more. A full reference guide is located at [support / stationctl](/support/stationctl.md).
+    You'll be introduced to `./stationctl` early in the [Getting Started](https://docs.thremulation.io/quickstart/deployment/#station-control-intro) section and use it to deploy boxes, get status, manage and clear data, and much more. A full reference guide is located at [support / stationctl](https://docs.thremulation.io/support/stationctl/).
 
 
 <!-- ## Contribution

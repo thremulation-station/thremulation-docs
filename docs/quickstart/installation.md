@@ -3,10 +3,11 @@
 Enough background info, let's get into the technical steps. Here's a high-level overview of the process to get your range up and running:
 
 1. Clone the project locally from Github
-1. Install 
-1. Use the CLI to deploy your range
-1. Reference the User Guide at [thremulation.io](https://thremulation.io)
-1. Use the CLI to perform cleanup / reset tasks
+1. Install dependencies
+1. Deploy your range using the `stationctl` CLI
+1. Validate the new range by performing the "Functions Check"
+1. Use `stationctl` to cleanup and reset the environment
+1. Itterate and learn!
 
 
 ## Installing Dependencies
@@ -14,7 +15,7 @@ Enough background info, let's get into the technical steps. Here's a high-level 
 Let's kick the process off by installing the required software for your host platform!
 
 !!! note ""
-      A simple and unified user experience is our goal, so we're working to build the dependency installation process into the [Station Control CLI](/support/stationctl.md), stay tuned. More on `stationctl` in a bit!
+      A simple and unified user experience is our goal, so we're working to build the dependency installation process into the [Station Control CLI](https://docs.thremulation.io/support/stationctl/), stay tuned. More on `stationctl` in a bit!
 
 <br>
 
