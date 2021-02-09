@@ -26,7 +26,7 @@
 Thremulation Station is an approachable small-scale threat emulation and detection range. It leans on Atomic Red Team for ***emulating*** threats, and the Elastic Endpoint Agent for ***detection***.
 
 !!! info "TL;DR"
-    If you're ready to skip the reading and jump into things, head to the [Quickstart / Installation](/quickstart/installation.md) section.
+    If you're ready to skip the reading and jump into things, head to the [Quickstart / Installation](https://docs.thremulation.io/quickstart/installation/) section.
 
 There are a lot of tools and moving pieces, but the main building blocks are:
 
